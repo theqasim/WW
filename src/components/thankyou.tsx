@@ -11,7 +11,6 @@ function Thankyou() {
     if (videoRef.current) {
       const player = new Plyr(videoRef.current);
 
-      // Cleanup the player on component unmount
       return () => {
         player.destroy();
       };
@@ -25,7 +24,7 @@ function Thankyou() {
         video from me to you 👇
       </h2>
       <video ref={videoRef} controls className="w-full">
-        <source src="/video.mp4" type="video/mp4" />
+        <source src="/video.mp4" type="video/mp4" className=""/>
         Your browser does not support the video tag.
       </video>
     </div>
