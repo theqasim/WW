@@ -9,18 +9,26 @@ type Submission = {
 };
 
 export async function POST(request: Request) {
-  const data: Submission = await request.json();
+  let data: Submission;
 
-
-  const client = await clientPromise;
-
-
-  const db = client.db("WebWealth");
-  const collection = db.collection("submissions");
+  // Handle potential errors with request.json()
+  try {
+    data = await request.json();
+  } catch (error) {
+    console.error("Error parsing request JSON:", error);
+    return NextResponse.error();
+  }
 
   try {
+    const client = await clientPromise;
+    const db = client.db("WebWealth");
+    const collection = db.collection("submissions");
 
     await collection.insertOne(data);
+
+    // Close the MongoDB connection (optional if using connection pooling)
+    await client.close();
+
     return NextResponse.json({ message: "Form submission successful" });
   } catch (error) {
     console.error("Error storing data in MongoDB:", error);
