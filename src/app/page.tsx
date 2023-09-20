@@ -43,6 +43,7 @@ export default function Home() {
       return;
     }
     const result = await res.json();
+    localStorage.setItem("formSubmitted", "true");
 
     router.push(`/registered`);
   };

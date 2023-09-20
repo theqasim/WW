@@ -23,8 +23,8 @@ function Thankyou() {
         Thank you for joining, your exclusive invite is below, along with a
         video from me to you 👇
       </h2>
-      <video ref={videoRef} controls className="w-full">
-        <source src="/video.mp4" type="video/mp4" className=""/>
+      <video ref={videoRef} controls className="w-full shadow-lg">
+        <source src="/video.mp4" type="video/mp4" className="" />
         Your browser does not support the video tag.
       </video>
     </div>
