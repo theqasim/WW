@@ -24,7 +24,7 @@ function Thankyou() {
         video from me to you 👇
       </h2>
       <video ref={videoRef} controls className="w-full shadow-lg">
-        <source src="/video.mp4" type="video/mp4" className="" />
+        <source src="https://www.dropbox.com/s/randomstring/filename.mp4?dl=1" type="video/mp4" className="" />
         Your browser does not support the video tag.
       </video>
     </div>
