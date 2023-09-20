@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { promises as fs } from "fs";
+import clientPromise from "../../lib/mongo";
 
 type Submission = {
   name?: string;
@@ -10,11 +10,20 @@ type Submission = {
 
 export async function POST(request: Request) {
   const data: Submission = await request.json();
-  const filePath = `./submissions/${data.name}-${Date.now()}.json`;
-  await fs.writeFile(filePath, JSON.stringify(data));
-  console.log("data: ", data);
 
-  const { name, skill, email, message } = data;
 
-  return NextResponse.json({ name, skill, email, message });
+  const client = await clientPromise;
+
+
+  const db = client.db("WebWealth");
+  const collection = db.collection("submissions");
+
+  try {
+
+    await collection.insertOne(data);
+    return NextResponse.json({ message: "Form submission successful" });
+  } catch (error) {
+    console.error("Error storing data in MongoDB:", error);
+    return NextResponse.error();
+  }
 }
