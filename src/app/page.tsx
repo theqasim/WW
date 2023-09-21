@@ -16,13 +16,11 @@ const initState = {
 export default function Home() {
   const [data, setData] = useState(initState);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [forceUpdate, setForceUpdate] = useState(0);
   const router = useRouter();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setForceUpdate(prev => prev + 1);
     console.log(JSON.stringify(data));
 
     const { name, skill, email, message } = data;
@@ -44,6 +42,7 @@ export default function Home() {
       console.error("Error submitting form:", await res.text());
       return;
     }
+    setIsSubmitting(false);
     const result = await res.json();
     localStorage.setItem("formSubmitted", "true");
 

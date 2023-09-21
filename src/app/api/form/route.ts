@@ -11,7 +11,6 @@ type Submission = {
 export async function POST(request: Request) {
   let data: Submission;
 
-  // Handle potential errors with request.json()
   try {
     data = await request.json();
   } catch (error) {
@@ -26,8 +25,7 @@ export async function POST(request: Request) {
 
     await collection.insertOne(data);
 
-    // Close the MongoDB connection (optional if using connection pooling)
-    await client.close();
+    // await client.close();
 
     return NextResponse.json({ message: "Form submission successful" });
   } catch (error) {
