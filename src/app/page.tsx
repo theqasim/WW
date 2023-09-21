@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import SubmitButton from "@/components/submit";
 import TextAreaField from "@/components/textarea";
 import InputField from "@/components/input";
+import MyDialog from "@/components/popup";
 import { useState, FormEvent, ChangeEvent } from "react";
 import { useRouter } from "next/navigation";
 
@@ -66,6 +67,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-12 bg-gradient-to-t from-violet-600 to-cyan-300">
       <div className="flex flex-col items-center justify-center lg:w-2/4 shadow-lg p-5 bg-white rounded-md font-mons">
         <Header />
+        <MyDialog />
         <div className="flex items-center justify-center w-3/4 mt-10">
           <form onSubmit={handleSubmit} className="w-full max-w-md">
             <InputField
