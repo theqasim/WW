@@ -41,9 +41,6 @@ function MyDialog() {
           >
             <div className="flex items-center justify-center min-h-screen">
               <Dialog.Panel className="mx-auto max-w-md px-6 py-4 bg-white rounded-xl">
-                <Dialog.Title className="text-xl font-semibold">
-                  Good question!
-                </Dialog.Title>
                 <Dialog.Description className="mt-2">
                   Web Wealth is <b>not a typical Discord server.</b>
                 </Dialog.Description>
@@ -78,7 +75,9 @@ function MyDialog() {
                     className="relative rounded px-5 py-2.5 overflow-hidden group bg-green-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300"
                   >
                     <span className="absolute top-0 right-0 w-full h-full transition-transform duration-500 transform skew-y-6 translate-x-full bg-white opacity-10 group-hover:translate-x-0 ease"></span>
-                    <span className="relative">I&apos;m ready</span>
+                    <span className="relative">
+                      <b>I&apos;m ready</b>
+                    </span>
                   </button>
                 </div>
               </Dialog.Panel>
