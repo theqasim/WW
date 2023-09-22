@@ -44,10 +44,10 @@ export default function Home() {
       return;
     }
     localStorage.setItem("formSubmitted", "true");
-    setIsSubmitting(false);
+
     const result = await res.json();
 
-
+    setIsSubmitting(false);
     router.push(`/registered`);
   };
 
@@ -105,9 +105,8 @@ export default function Home() {
               placeholder="How can you provide value.."
             />
             <div className="flex items-center justify-center">
-              <SubmitButton disabled={!canSave || isSubmitting}>
-                {isSubmitting ? "Submitting.." : "Submit"}
-              </SubmitButton>
+            <SubmitButton>{isSubmitting ? "Submitting.." : "Submit"}</SubmitButton>
+
             </div>
           </form>
         </div>
