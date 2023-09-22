@@ -23,11 +23,11 @@ function Thankyou() {
         Thank you for joining, your exclusive invite is below, along with a
         video from me to you 👇
       </h2>
-      <video ref={videoRef} controls className="w-full">
+      <video ref={videoRef} controls className="w-full ">
         <source
           src="https://www.dropbox.com/scl/fi/dffep9g6dmjgxfagq0zt5/Easiest-AI-Side-Hustle-of-2023.mp4?rlkey=r6aacexcymr8b6parw5304fss&dl=1"
           type="video/mp4"
-          className=""
+          className=" "
         />
         Your browser does not support the video tag.
       </video>

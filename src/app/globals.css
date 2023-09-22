@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  color: black;
-  background: white;
-  font: system-ui;
+    color: black;
+    background: white;
+    font: system-ui;
 }
 
 @font-face {
-  font-family: "mons";
-  src: url("../../public/fonts/Montserrat-Medium.ttf");
+    font-family: "mons";
+    src: url("../../public/fonts/Montserrat-Medium.ttf");
+}
+
+.plyr__controls {
+    opacity: 0 !important;
 }
