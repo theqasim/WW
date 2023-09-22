@@ -43,9 +43,10 @@ export default function Home() {
       console.error("Error submitting form:", await res.text());
       return;
     }
+    localStorage.setItem("formSubmitted", "true");
     setIsSubmitting(false);
     const result = await res.json();
-    localStorage.setItem("formSubmitted", "true");
+
 
     router.push(`/registered`);
   };
