@@ -17,13 +17,15 @@ function Thankyou() {
     }
   }, []);
 
+
+
   return (
     <div className="flex flex-col items-center justify-center md:w-3/4 w-4/4">
       <h2 className="text-3xl mt-4 font-bold text-center mb-6">
         Thank you for joining, your exclusive invite is below, along with a
         video from me to you 👇
       </h2>
-      <video ref={videoRef} controls className="w-full ">
+      <video ref={videoRef} controls className="w-full">
         <source
           src="https://www.dropbox.com/scl/fi/dffep9g6dmjgxfagq0zt5/Easiest-AI-Side-Hustle-of-2023.mp4?rlkey=r6aacexcymr8b6parw5304fss&dl=1"
           type="video/mp4"
@@ -42,7 +44,7 @@ function Thankyou() {
           alt="Discord Logo"
           className="w-12 h-12 rounded-lg"
         />
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <h3 className="text-xl">Join Web Wealth 🤝</h3>
         </div>
       </a>
