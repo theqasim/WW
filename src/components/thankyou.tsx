@@ -37,14 +37,14 @@ function Thankyou() {
         href="https://discord.gg/5TvmRjqJV"
         target="_blank"
         rel="noopener noreferrer"
-        className="discord-invite mt-6 p-4 border rounded-lg flex items-center space-x-4 bg-gray-800 text-white hover:bg-gray-700 transition-colors duration-300"
+        className="mt-6 p-3 border rounded-lg flex items-center space-x-4 bg-[#7289da] text-white hover:bg-[#677ac3] transition-colors duration-300 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
       >
         <img
           src="/logo.png"
           alt="Discord Logo"
           className="w-12 h-12 rounded-lg"
         />
-        <div className="flex flex-col items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <div className="flex flex-col items-center">
           <h3 className="text-xl">Join Web Wealth 🤝</h3>
         </div>
       </a>

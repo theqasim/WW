@@ -86,6 +86,7 @@ export default function Home() {
               id="fskill"
               name="skill"
               type="text"
+              placeholder="TikTok Marketing, Web Development, etc."
             />
             <InputField
               label="Email:"
@@ -96,13 +97,13 @@ export default function Home() {
               type="email"
             />
             <TextAreaField
-              label="Message:"
+              label="Why do you want to join Web Wealth?:"
               onChange={handleChange}
               value={data.message}
               name="message"
               id="fmessage"
               rows={5}
-              placeholder="How can you provide value.."
+              placeholder="I want to learn more about AI, I want to make money, etc."
             />
             <div className="flex items-center justify-center">
               <SubmitButton>
