@@ -17,8 +17,6 @@ function Thankyou() {
     }
   }, []);
 
-
-
   return (
     <div className="flex flex-col items-center justify-center md:w-3/4 w-4/4">
       <h2 className="text-3xl mt-4 font-bold text-center mb-6">

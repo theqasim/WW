@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/api/form/route.ts"
+    "src/app/api/form/route.ts",
+    "src/app/lessons/dropshipwithnothing"
   ],
   "exclude": ["node_modules"]
 }
