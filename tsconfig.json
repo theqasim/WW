@@ -29,7 +29,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/api/form/route.ts",
-    "src/app/lessons/dropshipwithnothing"
+    "src/app/lessons/dropshipwithnomoney"
   ],
   "exclude": ["node_modules"]
 }
