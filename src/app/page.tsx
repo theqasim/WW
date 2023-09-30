@@ -22,7 +22,7 @@ export default function Home() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    console.log(JSON.stringify(data));
+
 
     const { name, skill, email, message } = data;
 

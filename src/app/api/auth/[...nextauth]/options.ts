@@ -15,7 +15,6 @@ export const options: NextAuthOptions = {
   ],
   callbacks: {
     signIn: async ({ account }) => {
-      console.log("account", account?.access_token);
       if (account && account.access_token) {
         const response = await fetch(
           "https://discord.com/api/users/@me/guilds",
@@ -30,20 +29,17 @@ export const options: NextAuthOptions = {
           return false;
         }
         const guilds = await response.json();
-        //console.log("guilds", guilds)
-        const targetGuildId = "1153994810789740598";
+
         if (
-          guilds.some((guild: { id: string }) => guild.id === targetGuildId)
+          guilds.some((guild: { id: string }) => guild.id === process.env.TARGETGUILD)
         ) {
-          console.log("in guild");
           return true;
         }
       }
-      console.log("not in guild or no access token");
       return false;
     },
   },
-  // pages: {
-  //     signIn: "/signin",
-  // },
+  pages: {
+      signIn: "/signin",
+  },
 };
