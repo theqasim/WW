@@ -1,8 +1,8 @@
 // src/app/SignInPage.tsx
-"use client"
+"use client";
 
-import { signIn } from 'next-auth/react';
-import React from 'react';
+import { signIn } from "next-auth/react";
+import React from "react";
 
 const SignInPage: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const SignInPage: React.FC = () => {
         </div>
         <div>
           <button
-            onClick={() => signIn('discord')}
+            onClick={() => signIn("discord")}
             className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
             Sign in with Discord
@@ -24,6 +24,6 @@ const SignInPage: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
 export default SignInPage;
