@@ -23,7 +23,6 @@ export default function Home() {
     e.preventDefault();
     setIsSubmitting(true);
 
-
     const { name, skill, email, message } = data;
 
     const res = await fetch("/api/form", {

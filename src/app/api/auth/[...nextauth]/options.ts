@@ -31,7 +31,9 @@ export const options: NextAuthOptions = {
         const guilds = await response.json();
 
         if (
-          guilds.some((guild: { id: string }) => guild.id === process.env.TARGETGUILD)
+          guilds.some(
+            (guild: { id: string }) => guild.id === process.env.TARGETGUILD,
+          )
         ) {
           return true;
         }
@@ -40,6 +42,7 @@ export const options: NextAuthOptions = {
     },
   },
   pages: {
-      signIn: "/signin",
+    signIn: "/signin",
+    error: "/error",
   },
 };
