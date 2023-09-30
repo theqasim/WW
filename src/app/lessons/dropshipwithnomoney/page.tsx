@@ -36,7 +36,7 @@ const VideoBlog: React.FC = () => {
 
         <video ref={videoRef} controls className="w-full mb-6">
           <source
-            src="https://www.dropbox.com/scl/fi/zhz5f16g19vqekhwuxgcg/WW-Join-Video.mp4?rlkey=asw9hv56k85rq7zs27sjkk9pw&dl=1"
+            src="https://www.dropbox.com/scl/fi/rju41l1rmcd68aqundh2s/How-I-would-start-Dropshipping-with-0.mp4?rlkey=7ssy5ez50kh6mjnlpsx2rbhfq&dl=1"
             type="video/mp4"
           />
           Your browser does not support the video tag.
