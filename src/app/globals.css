@@ -2,40 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  color: black;
-  background: white;
-  font: system-ui;
+    color: black;
+    background: black;
+    font: system-ui;
 }
 
 @font-face {
-  font-family: "mons";
-  src: url("../../public/fonts/Montserrat-Medium.ttf");
+    font-family: "mons";
+    src: url("../../public/fonts/Montserrat-Medium.ttf");
 }
 
 .plyr--video .plyr__control--overlaid {
-  background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .plyr--video .plyr__controls {
-  background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .plyr__progress__buffer,
 .plyr__volume--horizontal .plyr__volume__display {
-  background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .plyr__control,
 .plyr__control.plyr__tab-focus:focus,
 .plyr__control:hover,
 .plyr__volume--horizontal .plyr__control.plyr__volume--muted {
-  color: #fff;
+    color: #fff;
 }
 
 .plyr--video .plyr__controls {
-  background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .plyr.plyr--full-ui.plyr--video.plyr--html5.plyr--fullscreen-enabled.plyr--pip-supported {
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
