@@ -15,8 +15,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
   destination,
 }) => {
   return (
-    <div className="grid grid-cols-1 gap-4 justify-content-space-between mx-auto hover:scale-105 transform transition-all duration-300 mb-10">
-      <div className="max-w-sm border border-white border-2 rounded-lg dark:bg-gray-800 ">
+    <div className="grid grid-cols-1 gap-4 justify-content-space-between  mx-auto hover:scale-105 transform transition-all duration-300 mb-10">
+      <div className="max-w-sm border border-white border-2 rounded-lg dark:bg-gray-800 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <a href={destination}>
           <Image
             className="rounded-t-lg"
@@ -73,14 +73,14 @@ const LessonsArchive: React.FC = () => {
     },
     {
       title: "How to make money as a teen with $0",
-      thumbnail: "/30days-dropshipping.jpg",
+      thumbnail: "/comingsoon.jpeg",
       description:
         "Struggling to make money online? Have no idea where to start? I've been there, I have been making online for 6 years, since the age of 14. I have tested a variety of business models and side hustles. I will teach you the easiest and best way to make money online, and the best part is you need $0 to start. You will lose nothing doing this, but you have everything to gain.",
       destination: "",
     },
     {
       title: "More coming soon!",
-      thumbnail: "/30days-dropshipping.jpg",
+      thumbnail: "/comingsoon.jpeg",
       description: "",
       destination: "",
     },
@@ -103,7 +103,7 @@ const LessonsArchive: React.FC = () => {
 
 const PageWrapper: React.FC = () => {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="min-h-screen">
       <LessonsArchive />
     </div>
   );
