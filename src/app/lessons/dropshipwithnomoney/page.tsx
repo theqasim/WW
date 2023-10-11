@@ -21,8 +21,8 @@ const VideoBlog: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-200 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-xl w-4/5 md:w-2/3 lg:w-1/2 space-y-6">
-        <h1 className="text-3xl font-bold mb-4 text-center text-gray-800">
-          How to Dropship with $0 (FREE COURSE)
+        <h1 className="text-2xl font-bold mb-4 text-center text-gray-800">
+          How to start Dropshipping with $0 (FREE COURSE)
         </h1>
 
         {/* <div className="flex items-center justify-center space-x-2 mb-6">

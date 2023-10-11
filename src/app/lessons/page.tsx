@@ -65,7 +65,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
 const LessonsArchive: React.FC = () => {
   const blogPosts = [
     {
-      title: "How I Would Start Dropshipping with $0 (FREE COURSE)",
+      title: "How to Start Dropshipping with $0 (FREE COURSE)",
       thumbnail: "/30days-dropshipping.jpg",
       description:
         "Dropshipping is a very popular business model, and it has been around for a long time. It has a resurgence over the past year with a lot of people attempting it, and a lot of them are doing it incorrectly. Leading them to waste their time and money. In this lesson, I will teach you exactly how to Dropshipping and do it successfully. ",
