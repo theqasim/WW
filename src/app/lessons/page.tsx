@@ -76,7 +76,7 @@ const LessonsArchive: React.FC = () => {
       thumbnail: "/comingsoon.jpeg",
       description:
         "Struggling to make money online? Have no idea where to start? I've been there, I have been making online for 6 years, since the age of 14. I have tested a variety of business models and side hustles. I will teach you the easiest and best way to make money online, and the best part is you need $0 to start. You will lose nothing doing this, but you have everything to gain.",
-      destination: "",
+      destination: "/lessons/makemoneywith$0",
     },
     {
       title: "More coming soon!",
