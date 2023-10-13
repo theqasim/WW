@@ -43,176 +43,158 @@ const VideoBlog: React.FC = () => {
         </video>
 
         <h2 className="text-2xl font-bold text-center mb-4">
-          Here&apos;s what you will learn:
+          Here&apos;s my backstory:
         </h2>
 
         <ul className="list-disc list-inside text-gray-700 mb-6">
           <li>
-            <b>How to pick products that make $5,000+ a week.</b>
-          </li>
-          <li>
-            <b>How to build and run a Dropshipping store</b>
-          </li>
-          <li>
             <b>
-              How to fulfil orders (without ever having to handle the products
-              yourself)
+              HI am 20 years old, and I have been making online since the age of
+              14.
             </b>
           </li>
           <li>
-            <b>Secret tips I use to get ahead of competitors.</b>
+            <b>I have ran multiple business models and side hustles.</b>
           </li>
           <li>
-            <b>The easiest scaling method to grow your store.</b>
+            <b>
+              I grew my first media business from $0-$100k by the age of 19.
+            </b>
+          </li>
+          <li>
+            <b>I will show the easiest path to make money FAST with $0.</b>
           </li>
         </ul>
 
-        <div className="text-gray-700 space-y-4">
-          <h3 className="font-semibold text-xl mb-2">
-            1. How to pick products that make $5,000+ a week:
-          </h3>
-          <p>
-            Go to <b>CJdropshipping or Aliexpress</b> and browse products to
-            find a product you believe could be good for dropshipping. <br></br>
-            <br></br>Look through the categories to identify a niche you believe
-            would be of interest. <br></br>
-            <br></br>Analyse the selling points of the product and reflect to
-            understand whether this product would be of interest to the market.{" "}
+        <h1 className="text-xl font-bold mb-4 text-center text-gray-800">
+          Here are the fundamentals you need to follow:
+        </h1>
+
+        <ul className="list-disc list-inside text-gray-700 mb-6">
+          <li>
+            <b>Do not waste time (drinking,smoking,partying etc)</b>
+          </li>
+          <li>
+            <b>Remember that SPEED is vital.</b>
+          </li>
+          <li>
             <b>
-              E.G a cool automatic water gun in winter would not be a great
-              product
+              Improve yourself as you build your business (gym, diet, mental
+              capacity, knowledge)
             </b>
-            .<br></br>
-            <br></br> Research the competitors of the product you have picked by
-            google searching the key terms of the product name, on the
-            “shopping” section of the search you will see a bunch of people
-            selling the product. The title of the product often isn&apos;t used,
-            I&apos;d suggest saving the image from the listing and using Google
-            Images to find the competitors as they will likely be using the same
-            assets under different names. <br></br>
-            <br></br>By looking at the competitors of the product, you can
-            understand how they&apos;re marketing the product, what pain points
-            they are using to sell the product (will cover more on this later)
-            and overall, what your store could look like when selling this
-            product. This is also a good way to identify potential{" "}
-            <b>upsale items</b> as your competitors will have worked this out by
-            now. <br></br>
-            <br></br>Do not spend a ton of time trying to find the “perfect”
-            product. Trial and error is a key element of Dropshipping.
-          </p>
+          </li>
+        </ul>
 
-          <h3 className="font-semibold text-xl mb-2">
-            2. How to build and run a Dropshipping store:
+        <h1 className="text-xl font-bold mb-8 text-center text-gray-800">
+          The model to make the fastest with $0 I recommend is the… Build and
+          Show model.
+        </h1>
+
+        <h1 className="text-lg font-bold mb-4 text-center text-gray-800">
+          This model involves you building a business and showcasing how you do
+          this at the same time. <br></br>
+          <br></br>Let&apos;s cover the building part of this first.
+        </h1>
+
+        <div className="text-gray-700 space-y-4">
+          <h3 className="font-semibold text-2xl mb-2">
+            Building a business with $0:
           </h3>
           <p>
-            Once you&apos;ve picked a product, you need to build a store.{" "}
+            You have <b>no capital</b> so you need to sell something that
+            requires no costs, apart from your time. Which is why you will be
+            selling a <b>service.</b> <br></br>
+            <br></br>When choosing a <b>service based business</b>, you have a
+            ton of options to choose from:
+          </p>
+          <ul className="list-disc list-inside ">
+            <li>
+              <b>SEO Services</b>
+            </li>
+            <li>
+              <b>Web Design</b>
+            </li>
+            <li>
+              <b>Graphic Design</b>
+            </li>
+            <li>
+              <b>Software Developer</b>
+            </li>
+            <li>
+              <b>SMMA</b>
+            </li>
+            <li>
+              <b>Copywriting</b>
+            </li>
+          </ul>
+
+          <p>
             <br></br>
-            <br></br>Head over to{" "}
-            <a
-              href="https://themes.shopify.com/themes?price%5B%5D=free&sort_by=most_relevant"
-              target="_blank"
-              className="text-cyan-500 hover:text-cyan-400"
-            >
-              here
-            </a>{" "}
-            these store templates are <b>FREE</b>. My personal favourite at the
-            moment is the Sense theme so I&apos;d recommend going with that.{" "}
+            The key here is to pick a business model that not only is{" "}
+            <b>lucrative</b>, and something <b>worth selling</b>, but also{" "}
+            <b>easy to learn.</b> Which is why I would recommend{" "}
+            <b>copywriting.</b>
+          </p>
+
+          <h3 className="font-semibold text-xl">
+            <br></br>What is copywriting?{" "}
+          </h3>
+          <p>
+            Copywriting is the art of <b>selling through the use of words.</b>{" "}
+            You are carefully analysing the situation to understand how to
+            formulate your words with the end goal of{" "}
+            <b>driving revenue to a business.</b>
             <br></br>
-            <br></br>Now you need to make an account to create your store, click
-            this to get 3 months worth of a Shopify Subscription for £1.
-            You&apos;re getting a website capable of processing payments paired
-            with a well designed theme for £1, you&apos;re welcome:{" "}
+            <br></br> Explaining the entire concept and how to do this is quite
+            a lengthy task, to expedite this process head over to{" "}
             <a
-              href="https://shopify.pxf.io/4PoAnL"
+              className="font-bold text-cyan-400"
+              href="https://z-lib.is"
               target="_blank"
-              className="text-cyan-500 hover:text-cyan-400"
             >
-              Exclusive £1 Offer
+              https://z-lib.is
             </a>{" "}
+            and read up on how to do copywriting <b>successfully.</b> I’ve
+            compiled a list of books which are available in the YouTube
+            description from the website.
+          </p>
+
+          <p>
+            Practise this skill and by learning from the books, refine your
+            skill and then sell it to businesses.
+          </p>
+
+          <br></br>
+          <h3 className="font-semibold text-xl mb-2">
+            Moving onto the SHOW part of the model.
+          </h3>
+          <p>
+            You are going to actively create content around what you’re doing,
+            the benefits from this are the following:
+          </p>
+
+          <ul className="space-y-2 list-disc list-inside ">
+            <li>
+              You build an audience of people that are interested in what you’re
+              doing.
+            </li>
+            <li>You can leverage your audience when doing business deals.</li>
+            <li>
+              You can monetize the audience by creating digital
+              products/services that show them how to do what you do.
+            </li>
+            <li>
+              You can even stop doing the business model and become a coach
+              teaching people how to do what you once did.
+            </li>
+          </ul>
+          <br></br>
+          <h3 className="font-semibold text-xl text-center">
+            This model by far is the easiest way to make money as a teen with
+            $0.
             <br></br>
-            <br></br>Once youu&apos;ve signed up and changed your theme to the
-            Sense theme. <b>You need to begin designing your store</b>, I&apos;d
-            suggest taking inspiration from your competitors. Do not reinvent
-            the wheel, simply take what works, improve on it if you can, and get
-            your store up. <br></br>
-            <br></br>You will be able to see the final price of the product if
-            you purchase the orders from the supplier. Click the “list” button
-            and it will prompt you to connect your Shopify store to the platform
-            which will setup a direct connection between your listing and the
-            supplier. Meaning, every time an order for that product is placed on
-            your store, an order is made on the suppliers website. <br></br>
-            <br></br>Once you&apos;re happy with the store and the product page,
-            we can move onto the next step, fulfilling orders.
-          </p>
-
-          <h3 className="font-semibold text-xl mb-2">
-            3. How to fulfil orders:
-          </h3>
-          <p>
-            Fulfilling orders is <b>very easy</b>, especially once you&apos;ve
-            connected your store. <br></br>
-            <br></br>The majority of these suppliers are structured the same in
-            terms of how orders are managed. When you get new orders, head over
-            to the suppliers website, refresh the order list and you will see
-            your new Shopify orders. Each order will have the customer&apos;s
-            details ready, so all you need to do is choose the shipping method
-            (varying in price and estimated duration). <br></br>
-            <br></br>After choosing the shipping method, you will purchase the
-            items for the order that will be shipped directly to the customers
-            of your store. The best part is that{" "}
-            <b>you&apos;re not using any of your own money</b>, the customer has
-            already purchased the item so you&apos;re simply taking money from
-            the order to purchase the item, and keeping the profit. <br></br>
-            <br></br>This whole process takes a few minutes each day and you can
-            select orders in bulk, so do not worry about fulfilling your stores
-            orders.
-          </p>
-
-          <h3 className="font-semibold text-xl mb-2">
-            4. Secret tips I use to get ahead of competitors:
-          </h3>
-          <p>
-            Not being the first one to sell a product can be seen as a negative,{" "}
-            <b>but there is a silver lining</b>. You have tons of evidence of
-            what works and what doesn&apos;t by analysing your competitors
-            strategies. <br></br>
-            <br></br>For example, if you&apos;re going to promote your store on
-            TikTok, you can find competitors&apos; TikTok accounts and look at
-            their views. The ones with the most success are ones you should be
-            posting or replicating. Once you choose a few TikTok&apos;s to post
-            on your account, we need to remove the watermark. Head over to{" "}
-            <a
-              href="https://snaptik.app"
-              target="_blank"
-              className="text-cyan-500 hover:text-cyan-400"
-            >
-              this website
-            </a>{" "}
-            to remove TikTok watermarks so you can post the video to your TikTok
-            accounts.
-          </p>
-
-          <h3 className="font-semibold text-xl mb-2">
-            5. The easiest scaling method to grow your store:
-          </h3>
-          <p>
-            Double down on what works, and cut off what doesn&apos;t. Do not
-            become attached to a particular way of marketing, you need to
-            remember that the goal is to bring in sales,{" "}
-            <b>by any means necessary</b>. Scaling with TikTok organic can be
-            done through posting more content that gets a higher AVD (Average
-            View Duration) Scaling with TikTok ads can be allocating more ad
-            spend to higher converting ad creatives/campaigns.{" "}
-          </p>
-          <h3 className="font-semibold text-xl mb-2">Final Notes:</h3>
-          <p>
-            The vital element of Dropshipping is <b>speed</b>, if a product does
-            not work, move onto the next one. If you set yourself 1 week to
-            build a store, it will take you a week. But, if you set yourself a
-            day to do it, the store will be done in a day. Do not prolong any
-            process of this. <br></br>
             <br></br>With that being said, I wish you the best of luck 🤝
-          </p>
+          </h3>
         </div>
       </div>
     </div>
