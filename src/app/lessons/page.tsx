@@ -66,23 +66,24 @@ const LessonsArchive: React.FC = () => {
   const blogPosts = [
     {
       title: "How to Start Dropshipping with $0 (FREE COURSE)",
-      thumbnail: "/30days-dropshipping.jpg",
+      thumbnail: "/resources/30days-dropshipping.jpg",
       description:
         "Dropshipping is a very popular business model, and it has been around for a long time. It has a resurgence over the past year with a lot of people attempting it, and a lot of them are doing it incorrectly. Leading them to waste their time and money. In this lesson, I will teach you exactly how to Dropshipping and do it successfully. ",
       destination: "/lessons/dropshipwithnomoney",
     },
     {
       title: "How to make money as a teen with $0",
-      thumbnail: "/howtomakemoneyasateenwith$0.jpg",
+      thumbnail: "/resources/howtomakemoneyasateenwith$0.jpg",
       description:
         "Struggling to make money online? Have no idea where to start? I've been there, I have been making online for 6 years, since the age of 14. I have tested a variety of business models and side hustles. I will teach you the easiest and best way to make money online, and the best part is you need $0 to start. You will lose nothing doing this, but you have everything to gain.",
       destination: "/lessons/makemoneywith$0",
     },
     {
-      title: "More coming soon!",
-      thumbnail: "/comingsoon.jpeg",
-      description: "",
-      destination: "",
+      title: "How to Make Passive Income with ChatGPT ($1000/day)",
+      thumbnail: "/resources/howtomakepassiveincomewithchatgpt.jpg",
+      description:
+        "Making money with AI is very easy, but the key is making it passive so you can apply minimal effort whilst still making a lot of money. I will show you in this lesson how to do that. You can very easily make $1000+ a day using these methods.  ",
+      destination: "/lessons",
     },
   ];
 
