@@ -65,11 +65,11 @@ const BlogPost: React.FC<BlogPostProps> = ({
 const LessonsArchive: React.FC = () => {
   const blogPosts = [
     {
-      title: "How to Start Dropshipping with $0 (FREE COURSE)",
-      thumbnail: "/resources/30days-dropshipping.jpg",
+      title: "How to Make Passive Income with ChatGPT ($1000/day)",
+      thumbnail: "/resources/howtomakepassiveincomewithchatgpt.jpg",
       description:
-        "Dropshipping is a very popular business model, and it has been around for a long time. It has a resurgence over the past year with a lot of people attempting it, and a lot of them are doing it incorrectly. Leading them to waste their time and money. In this lesson, I will teach you exactly how to Dropshipping and do it successfully. ",
-      destination: "/lessons/dropshipwithnomoney",
+        "Making money with AI is very easy, but the key is making it passive so you can apply minimal effort whilst still making a lot of money. I will show you in this lesson how to do that. You can very easily make $1000+ a day using these methods.  ",
+      destination: "/lessons/howtomakepassiveincomewithchatgpt",
     },
     {
       title: "How to make money as a teen with $0",
@@ -79,11 +79,11 @@ const LessonsArchive: React.FC = () => {
       destination: "/lessons/makemoneywith$0",
     },
     {
-      title: "How to Make Passive Income with ChatGPT ($1000/day)",
-      thumbnail: "/resources/howtomakepassiveincomewithchatgpt.jpg",
+      title: "How to Start Dropshipping with $0 (FREE COURSE)",
+      thumbnail: "/resources/30days-dropshipping.jpg",
       description:
-        "Making money with AI is very easy, but the key is making it passive so you can apply minimal effort whilst still making a lot of money. I will show you in this lesson how to do that. You can very easily make $1000+ a day using these methods.  ",
-      destination: "/lessons",
+        "Dropshipping is a very popular business model, and it has been around for a long time. It has a resurgence over the past year with a lot of people attempting it, and a lot of them are doing it incorrectly. Leading them to waste their time and money. In this lesson, I will teach you exactly how to Dropshipping and do it successfully. ",
+      destination: "/lessons/dropshipwithnomoney",
     },
   ];
 
