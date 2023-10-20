@@ -51,17 +51,29 @@ const VideoBlog: React.FC = () => {
               AI tools. Examples are the following:
               <ul className="list-inside text-gray-700 mb-6 indent-1 mt-2">
                 <li className="ml-4">
-                  <a className="text-blue-400" href="https://www.jasper.ai">
+                  <a
+                    className="text-blue-400 hover:text-blue-500"
+                    href="https://www.jasper.ai"
+                    target="_blank"
+                  >
                     <b>JasperAI</b>
                   </a>
                 </li>
                 <li className="ml-4 mt-1">
-                  <a className="text-blue-400" href="https://www.copy.ai">
+                  <a
+                    className="text-blue-400 hover:text-blue-500"
+                    href="https://www.copy.ai"
+                    target="_blank"
+                  >
                     <b>CopyAI</b>
                   </a>
                 </li>
                 <li className="ml-4 mt-1">
-                  <a className="text-blue-400" href="https://rytr.me">
+                  <a
+                    className="text-blue-400 hover:text-blue-500"
+                    href="https://rytr.me"
+                    target="_blank"
+                  >
                     <b>Rytr</b>
                   </a>
                 </li>
@@ -94,7 +106,7 @@ const VideoBlog: React.FC = () => {
               <b>
                 <a
                   href="https://pictory.ai"
-                  className="text-blue-400"
+                  className="text-blue-400 hover:text-blue-500"
                   target="_blank"
                 >
                   Pictory
@@ -116,12 +128,11 @@ const VideoBlog: React.FC = () => {
               link for the AI Tools you choose.
             </li>
             <li className="mt-4">
-              You’re very simply making money to advertise a great product so
-              the value is there already, you just need to shine a light on it
-              to make yourself money.
+              You&apos;re very simply making money to advertise a great product
+              so the value is there already, you just need to shine a light on
+              it to make yourself money.
             </li>
           </ul>
-
           <h3 className="font-bold text-xl mb-2">Selling Physical Products:</h3>
           <p>
             In this method you will be generating digital patterns and
@@ -139,7 +150,7 @@ const VideoBlog: React.FC = () => {
             {"  "}
             <a
               href="https://discord.gg/midjourney"
-              className="text-blue-400"
+              className="text-blue-400 hover:text-blue-500"
               target="_blank"
             >
               <b>Discord server</b>
@@ -180,13 +191,12 @@ const VideoBlog: React.FC = () => {
             {"  "}
             <a
               href="https://printify.com"
-              className="text-blue-400"
+              className="text-blue-400 hover:text-blue-500"
               target="_blank"
             >
               <b>Printfiy</b>
             </a>
           </p>
-
           <h3 className="font-semibold text-xl mb-2">Course Creation: </h3>
           <p>
             In this method you will be creating a course using ChatGPT and then
@@ -198,7 +208,7 @@ const VideoBlog: React.FC = () => {
             Head over to{" "}
             <a
               href="https://udemy.com"
-              className="text-blue-400"
+              className="text-blue-400 hover:text-blue-500"
               target="_blank"
             >
               <b>Udemy</b>
@@ -208,7 +218,7 @@ const VideoBlog: React.FC = () => {
             to learn how to market on different platforms. Click{" "}
             <a
               href="https://udemy.com/courses/marketing"
-              className="text-blue-400"
+              className="text-blue-400 hover:text-blue-500"
               target="_blank"
             >
               <b>here</b>
@@ -219,7 +229,7 @@ const VideoBlog: React.FC = () => {
             I picked out{" "}
             <a
               href="https://www.udemy.com/course/learn-google-adwords-course-for-beginners/"
-              className="text-blue-400"
+              className="text-blue-400 hover:text-blue-500"
               target="_blank"
             >
               <b>this</b>
@@ -250,7 +260,7 @@ const VideoBlog: React.FC = () => {
             Use{" "}
             <a
               href="https://www.synthesia.io"
-              className="text-blue-400"
+              className="text-blue-400 hover:text-blue-500"
               target="_blank"
             >
               <b>Synthesia.io</b>
@@ -261,14 +271,23 @@ const VideoBlog: React.FC = () => {
           <p>
             Pick a template, and configure the title for the lesson as well as
             the course content.
+          </p>{" "}
+          <p>
+            Once you&apos;re happy with the course content, post it on Udemy,
+            Skillshare and even consider hosting it yourself, Shopify has very
+            easy to use plugins which will allow you to supply the course.
+          </p>
+          <p>
+            Leverage your social media following to advertise the course, you
+            can even use the course you generated to collect some results and
+            use that as proof to sell the course. People like buying into things
+            that work.
           </p>
           <h3 className="font-semibold text-xl mb-2">Final Notes:</h3>
           <p>
-            The vital element of Dropshipping is <b>speed</b>, if a product does
-            not work, move onto the next one. If you set yourself 1 week to
-            build a store, it will take you a week. But, if you set yourself a
-            day to do it, the store will be done in a day. Do not prolong any
-            process of this. <br></br>
+            Making money with AI is very easy and there is multiple ways you can
+            do it. The ways I mentioned in this lesson are the easiest ways to
+            make money based off my experience.<br></br>
             <br></br>With that being said, I wish you the best of luck 🤝
           </p>
         </div>

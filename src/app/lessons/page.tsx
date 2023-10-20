@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 
 interface BlogPostProps {
@@ -15,7 +17,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
   destination,
 }) => {
   return (
-    <div className="grid grid-cols-1 gap-4 justify-content-space-between  mx-auto hover:scale-105 transform transition-all duration-300 mb-10">
+    <div className="grid grid-cols-1 gap-4 justify-content-space-between mx-auto hover:scale-105 transform transition-all duration-300 mb-10">
       <div className="max-w-sm border border-white border-2 rounded-lg dark:bg-gray-800 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <a href={destination}>
           <Image
@@ -49,9 +51,9 @@ const BlogPost: React.FC<BlogPostProps> = ({
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
@@ -63,7 +65,9 @@ const BlogPost: React.FC<BlogPostProps> = ({
 };
 
 const LessonsArchive: React.FC = () => {
-  const blogPosts = [
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const blogPosts: BlogPostProps[] = [
     {
       title: "How to Make Passive Income with ChatGPT ($1000/day)",
       thumbnail: "/resources/howtomakepassiveincomewithchatgpt.jpg",
@@ -87,17 +91,33 @@ const LessonsArchive: React.FC = () => {
     },
   ];
 
+  const filteredBlogPosts = blogPosts.filter((blogPost) =>
+    blogPost.title.toLowerCase().includes(searchTerm.toLowerCase()),
+  );
+
   return (
-    <div className="grid grid-cols-3 max-md:grid-cols-1 gap-4 place-items-stretch h-56 mt-20 ">
-      {blogPosts.map((blogPost) => (
-        <BlogPost
-          key={blogPost.title}
-          title={blogPost.title}
-          thumbnail={blogPost.thumbnail}
-          description={blogPost.description}
-          destination={blogPost.destination}
+    <div>
+      <div className="lg:flex justify-end px-6 py-4">
+        <input
+          type="text"
+          placeholder="Search lessons..."
+          className="px-3 py-2 border border-gray-300 rounded-lg shadow-md"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
-      ))}
+      </div>
+
+      <div className="grid grid-cols-3 max-md:grid-cols-1 gap-4 place-items-stretch h-56 mt-20">
+        {filteredBlogPosts.map((blogPost) => (
+          <BlogPost
+            key={blogPost.title}
+            title={blogPost.title}
+            thumbnail={blogPost.thumbnail}
+            description={blogPost.description}
+            destination={blogPost.destination}
+          />
+        ))}
+      </div>
     </div>
   );
 };
