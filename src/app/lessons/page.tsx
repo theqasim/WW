@@ -69,11 +69,11 @@ const LessonsArchive: React.FC = () => {
 
   const blogPosts: BlogPostProps[] = [
     {
-      title: "How to Make Passive Income with ChatGPT ($1000/day)",
+      title: "How to Make Money with ChatGPT ($1000/day)",
       thumbnail: "/resources/howtomakepassiveincomewithchatgpt.jpg",
       description:
         "Making money with AI is very easy, but the key is making it passive so you can apply minimal effort whilst still making a lot of money. I will show you in this lesson how to do that. You can very easily make $1000+ a day using these methods.  ",
-      destination: "/lessons/howtomakepassiveincomewithchatgpt",
+      destination: "/lessons/makemoneywithchatgpt",
     },
     {
       title: "How to make money as a teen with $0",
@@ -92,7 +92,7 @@ const LessonsArchive: React.FC = () => {
   ];
 
   const filteredBlogPosts = blogPosts.filter((blogPost) =>
-    blogPost.title.toLowerCase().includes(searchTerm.toLowerCase()),
+    blogPost.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (

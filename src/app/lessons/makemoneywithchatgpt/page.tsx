@@ -23,11 +23,11 @@ const VideoBlog: React.FC = () => {
     <div className="min-h-screen bg-gray-200 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-xl w-4/5 md:w-2/3 lg:w-1/2 space-y-6">
         <h1 className="text-2xl font-bold mb-4 text-center text-gray-800">
-          How to make PASSIVE INCOME with ChatGPT
+          How to make money with ChatGPT
         </h1>
         <video ref={videoRef} controls className="w-full mb-6">
           <source
-            src="https://www.dropbox.com/scl/fi/rju41l1rmcd68aqundh2s/How-I-would-start-Dropshipping-with-0.mp4?rlkey=7ssy5ez50kh6mjnlpsx2rbhfq&dl=1"
+            src="https://www.dropbox.com/scl/fi/5joapmbo91c4ptoq57ifk/how-to-make-passive-income-with-chatgpt.mp4?rlkey=48n3659pr7ktktgxtafp737kr&dl=1"
             type="video/mp4"
           />
           Your browser does not support the video tag.
