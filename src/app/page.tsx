@@ -1,117 +1,35 @@
-"use client";
-import Header from "@/components/header";
-import SubmitButton from "@/components/submit";
-import TextAreaField from "@/components/textarea";
-import InputField from "@/components/input";
-import MyDialog from "@/components/popup";
-import { useState, FormEvent, ChangeEvent } from "react";
-import { useRouter } from "next/navigation";
+import Cta from "@/components/cta";
+import GroupFeatures from "@/components/features";
+import LessonsPreview from "@/components/lessonspreview";
+import SellingPoint from "@/components/sellingpoint";
 
-const initState = {
-  name: "",
-  skill: "",
-  email: "",
-  message: "",
-};
-
-export default function Home() {
-  const [data, setData] = useState(initState);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const router = useRouter();
-
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    const { name, skill, email, message } = data;
-
-    const res = await fetch("/api/form", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name,
-        skill,
-        email,
-        message,
-      }),
-    });
-
-    if (!res.ok) {
-      console.error("Error submitting form:", await res.text());
-      return;
-    }
-    localStorage.setItem("formSubmitted", "true");
-
-    const result = await res.json();
-
-    setIsSubmitting(false);
-    router.push(`/registered`);
-  };
-
-  const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-  ) => {
-    const name = e.target.name;
-
-    setData((prevData) => ({
-      ...prevData,
-      [name]: e.target.value,
-    }));
-  };
-
-  const canSave = [...Object.values(data)].every(Boolean);
-
+export default function Component() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-12 bg-gradient-to-t from-violet-600 to-cyan-300">
-      <div className="flex flex-col items-center justify-center lg:w-2/4 shadow-lg p-5 bg-white rounded-md font-mons">
-        <Header />
-        <MyDialog />
-        <div className="flex items-center justify-center w-3/4 mt-10">
-          <form onSubmit={handleSubmit} className="w-full max-w-md">
-            <InputField
-              label="Preferred name:"
-              onChange={handleChange}
-              value={data.name}
-              id="fname"
-              name="name"
-              type="text"
-            />
-            <InputField
-              label="Skillset:"
-              onChange={handleChange}
-              value={data.skill}
-              id="fskill"
-              name="skill"
-              type="text"
-              placeholder="TikTok Marketing, Web Development, etc."
-            />
-            <InputField
-              label="Email:"
-              onChange={handleChange}
-              value={data.email}
-              id="femail"
-              name="email"
-              type="email"
-            />
-            <TextAreaField
-              label="Why do you want to join Web Wealth?:"
-              onChange={handleChange}
-              value={data.message}
-              name="message"
-              id="fmessage"
-              rows={5}
-              placeholder="I want to learn more about AI, I want to make money, etc."
-            />
-            <div className="flex items-center justify-center">
-              <SubmitButton>
-                {isSubmitting ? "Submitting.." : "Submit"}
-              </SubmitButton>
+    <div>
+      <section className="w-full py-12 bg-black text-white">
+        <div className="container px-4 md:px-6 mx-auto">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="space-y-2">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+                Join Web Wealth - The Exclusive Community for Online
+                Entrepreneurs
+              </h1>
+              <p className="mx-auto max-w-[700px]">
+                Get access to FREE courses on a variety of topics all geared
+                towards making you money online. Expedite your journey to
+                success and join today..
+              </p>
             </div>
-          </form>
+            <Cta textColor="text-white" />
+          </div>
         </div>
-      </div>
-    </main>
+      </section>
+      <GroupFeatures />
+      <SellingPoint />
+      <LessonsPreview />
+      <footer className="w-full py-6 bg-black text-white text-center">
+        <p>© 2023 Web Wealth - All rights reserved.</p>
+      </footer>
+    </div>
   );
 }

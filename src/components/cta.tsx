@@ -5,13 +5,12 @@ interface CtaProps {
 }
 
 export default function Cta({ textColor }: CtaProps) {
-  // Define a default text color if the prop is not provided
   const defaultTextColor = "text-black";
 
   return (
     <a
-      href="/webwealth"
-      className={`relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] group ${
+      href="/join"
+      className={`relative inline-flex mb-10 items-center justify-center px-6 py-3 overflow-hidden font-bold rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] group ${
         textColor || defaultTextColor
       }`}
     >
