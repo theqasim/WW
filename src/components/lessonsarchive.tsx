@@ -96,19 +96,19 @@ function LessonsArchive() {
           {filteredLessons.map((lesson) => (
             <a
               key={lesson.id}
-              href={lesson.link} 
+              href={lesson.link}
               className="rounded shadow-md ease-in-out border-solid border-2 border-white hover:scale-105 transform transition-all duration-300"
             >
               <img
                 alt={lesson.title}
-                className="w-full h-64 rounded-t object-cover"
+                className="w-full rounded-t object-cover"
                 src={lesson.imageUrl}
               />
               <div className="p-4 bg-white dark:bg-gray-800">
                 <h2 className="text-xl font-bold mb-2 dark:text-white">
                   {lesson.title}
                 </h2>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p className="text-gray-500 h-full dark:text-gray-400">
                   {lesson.description}
                 </p>
               </div>

@@ -18,6 +18,6 @@ const config: Config = {
       mons: ["Montserrat", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;

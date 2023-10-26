@@ -32,13 +32,13 @@ function Thankyou() {
         Your browser does not support the video tag.
       </video>
       <a
-        href="https://discord.gg/5TvmRjqJV"
+        href="https://discord.gg/ENHePPhAF"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-6 p-3 border rounded-lg flex items-center space-x-4 bg-[#7289da] text-white hover:bg-[#677ac3] transition-colors duration-300 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
       >
         <img
-          src="/logo.png"
+          src="/resources/logo.png"
           alt="Discord Logo"
           className="w-12 h-12 rounded-lg"
         />
