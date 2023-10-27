@@ -56,7 +56,7 @@ function LessonsArchive() {
     <div className="bg-gray-100 dark:bg-gray-900 min-h-screen">
       <section className="w-full py-10 px-5 lg:px-20 space-y-10 bg-gray-100 dark:bg-gray-900">
         <div className="text-center">
-          <h1 className="text-4xl font-bold dark:text-white font-bold">
+          <h1 className="text-4xl font-bold text-white tracking-tighter font-bold">
             Web Wealth Lessons Archive
           </h1>
           <p className="text-gray-600 dark:text-gray-400">
