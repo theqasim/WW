@@ -5,5 +5,7 @@ export const config = {
     "/lessons/dropshipwithnomoney",
     "/lessons/makemoneywith$0",
     "/lessons/makemoneywithchatgpt",
+    "/lessons/makeaihistoricalcontent"
+  
   ],
 };

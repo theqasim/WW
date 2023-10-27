@@ -9,7 +9,7 @@ const lessonsData = [
     description:
       "Have you ever wanted to make viral content? This lesson is for you, I will show you how to make viral content that will not only allow you to garner a lot of views but also a lot of money with minimal effort. With the help of AI, you can make engaging content to build an audience and make yourself money.",
     imageUrl: "/resources/howtomakeviralaihistoryvideos.jpg",
-    link: "/lessons",
+    link: "/lessons/makeaihistoricalcontent",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ function LessonsArchive() {
     setSearchInput(searchTerm);
 
     const filteredLessons = lessonsData.filter((lesson) =>
-      lesson.title.toLowerCase().includes(searchTerm),
+      lesson.title.toLowerCase().includes(searchTerm)
     );
 
     setFilteredLessons(filteredLessons);
@@ -63,7 +63,7 @@ function LessonsArchive() {
             A complete list of all the lessons available in Web Wealth
           </p>
         </div>
-        <div className="text-right">
+        <div className="flex justify-center">
           <div className="relative w-full max-w-md bg-white shadow-md rounded-md">
             <input
               aria-label="Search"

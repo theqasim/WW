@@ -4,11 +4,11 @@ export default function LessonsPreview() {
   return (
     <section className="w-full bg-white">
       <div className="container px-4 md:px-6 mx-auto flex flex-col items-center">
-        <h2 className="text-2xl font-semibold mt-5 text-center">
-          Here are a few lessons you can get access to for FREE
+        <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-black mt-5 mb-5">
+          Here are a few lessons you can get access to for FREE..
         </h2>
         <div className="flex flex-col space-y-6 md:space-x-6 md:flex-row md:space-y-0">
-          <div className="p-4 bg-black dark:bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
+          <div className="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
             <img
               alt="Lesson preview"
               className="object-cover rounded-lg mb-2 mx-auto"
@@ -24,7 +24,7 @@ export default function LessonsPreview() {
               How to Make Money as a Teen with $0
             </p>
           </div>
-          <div className="p-4 bg-black dark:bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
+          <div className="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
             <img
               alt="Lesson preview"
               className="object-cover rounded-lg mb-2 mx-auto"
@@ -40,7 +40,7 @@ export default function LessonsPreview() {
               How to Start Dropshipping with $0
             </p>
           </div>
-          <div className="p-4 bg-black dark:bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
+          <div className="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
             <img
               alt="Lesson preview"
               className="object-cover rounded-lg mb-2 mx-auto"
