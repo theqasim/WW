@@ -26,18 +26,9 @@ const VideoBlog: React.FC = () => {
           How to make money as a teen with $0
         </h1>
 
-        {/* <div className="flex items-center justify-center space-x-2 mb-6">
-          <img
-            src="/profile.png"
-            alt="Author Name"
-            className="w-16 h-16 rounded-full border-4 border-indigo-500"
-          />
-          <span className="text-gray-700 text-xl font-medium">Qasim</span>
-        </div> */}
-
         <video ref={videoRef} controls className="w-full mb-6">
           <source
-            src="https://www.dropbox.com/scl/fi/rju41l1rmcd68aqundh2s/How-I-would-start-Dropshipping-with-0.mp4?rlkey=7ssy5ez50kh6mjnlpsx2rbhfq&dl=1"
+            src="https://www.dropbox.com/scl/fi/rpahmrh9x9k1k6mm0wdsf/howtomakemoneyasateenwith-0.mp4?rlkey=dielbdomxaeh66ip8i55jj1vv&dl=1"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -50,7 +41,7 @@ const VideoBlog: React.FC = () => {
         <ul className="list-disc list-inside text-gray-700 mb-6">
           <li>
             <b>
-              HI am 20 years old, and I have been making online since the age of
+              I am 20 years old, and I have been making online since the age of
               14.
             </b>
           </li>

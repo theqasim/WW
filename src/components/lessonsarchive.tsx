@@ -15,7 +15,7 @@ const lessonsData = [
     id: 2,
     title: "How to Make Money with ChatGPT ($1000/day)",
     description:
-      "Making money with AI is very easy, but the key is making it passive so you can apply minimal effort whilst still making a lot of money. I will show you in this lesson how to do that. You can very easily make $1000+ a day using these methods.",
+      "Making money with AI is very easy, but the key is making it passive so you can apply minimal effort whilst still making a lot of money. I will show you in this lesson how to do that. You can very easily make $1000+ a day using these methods, but always remember that all these methods require consistency to make them work.",
     imageUrl: "/resources/howtomakepassiveincomewithchatgpt.jpg",
     link: "/lessons/makemoneywithchatgpt",
   },

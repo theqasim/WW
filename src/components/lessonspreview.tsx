@@ -10,7 +10,7 @@ export default function LessonsPreview() {
         <div className="flex flex-col space-y-6 md:space-x-6 md:flex-row md:space-y-0">
           <div className="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
             <img
-              alt="Lesson preview"
+              alt="make money as a teen with $0"
               className="object-cover rounded-lg mb-2 mx-auto"
               src="/resources/logo.png"
               style={{
@@ -26,7 +26,7 @@ export default function LessonsPreview() {
           </div>
           <div className="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
             <img
-              alt="Lesson preview"
+              alt="mstart dropshipping with $0"
               className="object-cover rounded-lg mb-2 mx-auto"
               src="/resources/logo.png"
               style={{
@@ -42,7 +42,7 @@ export default function LessonsPreview() {
           </div>
           <div className="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center">
             <img
-              alt="Lesson preview"
+              alt="how to make $10k a month with AI or ChatGPT"
               className="object-cover rounded-lg mb-2 mx-auto"
               src="/resources/logo.png"
               style={{
@@ -53,7 +53,7 @@ export default function LessonsPreview() {
               height={200}
             />
             <p className="text-white dark:text-black font-semibold mt-3">
-              How to make $10/month with ChatGPT
+              How to make $10K/month with ChatGPT
             </p>
           </div>
         </div>
