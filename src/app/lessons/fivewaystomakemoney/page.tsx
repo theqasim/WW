@@ -62,12 +62,16 @@ const VideoBlog: React.FC = () => {
           Very simply you create content and you make money through the ad
           revenue. Here is a few of my months on one of my channels:
         </h3>
-        <img className="shadow-lg" src="/resources/adsensehistory.png"></img>
+        <img
+          className="shadow-lg"
+          alt="ad sense history"
+          src="/resources/adsensehistory.png"
+        ></img>
         <p>
           This is all from making videos within a niche, and people watching the
           videos. I will show you how to make videos that are successful, so you
           can expedite your process to becoming monetized, bring in a lot of
-          views and make a lot of money.{" "}
+          views and make a lot of money.
         </p>
         <p>
           Very simply, pick a niche, for example, I am in the make money online
@@ -154,7 +158,11 @@ const VideoBlog: React.FC = () => {
           People are making $10k+ a month all by posting TikToks. Here are some
           results you can look at:
         </p>
-        <img className="" src="/resources/tiktokcreativityresults.png"></img>
+        <img
+          className=""
+          alt="tiktok creativity fund results"
+          src="/resources/tiktokcreativityresults.png"
+        ></img>
         <p>
           The platform itself is very easy to get views on, by far it&apos;s the
           easiest platform to blow up on and get traction. To join the
@@ -192,7 +200,11 @@ const VideoBlog: React.FC = () => {
         </ul>
 
         <p>Here is an example of someone that is utilising this very well:</p>
-        <img className="shadow-lg" src="/resources/imantiktokaccount.png"></img>
+        <img
+          className="shadow-lg"
+          alt="Iman Gadhzi TikTok Account"
+          src="/resources/imantiktokaccount.png"
+        ></img>
         <p>
           As you can see this person is posting Iman Gadhzi clips with some
           small text on it loosely related to the video and they&apos;re
@@ -217,6 +229,7 @@ const VideoBlog: React.FC = () => {
         <img
           className="shadow-lg"
           src="/resources/mediabusinessproof.jpg"
+          alt="media business proof"
         ></img>
 
         <p>
@@ -256,6 +269,7 @@ const VideoBlog: React.FC = () => {
         <img
           className="shadow-lg"
           src="/resources/xmonetisationrequirements.png"
+          alt="X/Twitter Monetisation Requirements"
         ></img>
 
         <p>
@@ -273,7 +287,11 @@ const VideoBlog: React.FC = () => {
           platforms, they know it will do well on X.
         </p>
 
-        <img className="shadow-lg" src="/resources/xaccountsuccess.png"></img>
+        <img
+          className="shadow-lg"
+          alt="X/Twitter account success"
+          src="/resources/xaccountsuccess.png"
+        ></img>
 
         <h1 className="text-xl font-bold mb-4 text-center text-gray-800">
           Secret to making money online:
