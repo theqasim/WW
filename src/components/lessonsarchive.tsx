@@ -3,8 +3,16 @@
 import React, { useState } from "react";
 
 const lessonsData = [
+  // {
+  //   id: 1,
+  //   title: "I found the 5 laziest ways to make money online",
+  //   description:
+  //     "Have you ever wanted to make money online? But don't want to spend a ton of time building a business to do so? I will show you the easiest ways to make money online as a complete beginner. I currently use some of these methods too, so rest assured they work very well.",
+  //   imageUrl: "/resources/howtomakeviralaihistoryvideos.jpg",
+  //   link: "/lessons/5laziestwaystomakemoneyonline",
+  // },
   {
-    id: 1,
+    id: 2,
     title: "How to Make AI Historical Content",
     description:
       "Have you ever wanted to make viral content? This lesson is for you, I will show you how to make viral content that will not only allow you to garner a lot of views but also a lot of money with minimal effort. With the help of AI, you can make engaging content to build an audience and make yourself money.",
@@ -12,7 +20,7 @@ const lessonsData = [
     link: "/lessons/makeaihistoricalcontent",
   },
   {
-    id: 2,
+    id: 3,
     title: "How to Make Money with ChatGPT ($1000/day)",
     description:
       "Making money with AI is very easy, but the key is making it passive so you can apply minimal effort whilst still making a lot of money. I will show you in this lesson how to do that. You can very easily make $1000+ a day using these methods, but always remember that all these methods require consistency to make them work.",
@@ -20,7 +28,7 @@ const lessonsData = [
     link: "/lessons/makemoneywithchatgpt",
   },
   {
-    id: 3,
+    id: 4,
     title: "How to make money as a teen with $0",
     description:
       "Struggling to make money online? Have no idea where to start? I've been there, I have been making online for 6 years, since the age of 14. I have tested a variety of business models and side hustles. I will teach you the easiest and best way to make money online, and the best part is you need $0 to start.",
@@ -28,7 +36,7 @@ const lessonsData = [
     link: "/lessons/makemoneywith$0",
   },
   {
-    id: 4,
+    id: 5,
     title: "How to Start Dropshipping with $0 (FREE COURSE)",
     description:
       "Dropshipping is a very popular business model, and it has been around for a long time. It has a resurgence over the past year with a lot of people attempting it, and a lot of them are doing it incorrectly. Leading them to waste their time and money. In this lesson, I will teach you exactly how to Dropshipping and do it successfully.",
@@ -46,7 +54,7 @@ function LessonsArchive() {
     setSearchInput(searchTerm);
 
     const filteredLessons = lessonsData.filter((lesson) =>
-      lesson.title.toLowerCase().includes(searchTerm)
+      lesson.title.toLowerCase().includes(searchTerm),
     );
 
     setFilteredLessons(filteredLessons);
@@ -104,11 +112,11 @@ function LessonsArchive() {
                 className="w-full rounded-t object-cover"
                 src={lesson.imageUrl}
               />
-              <div className="p-4 bg-white dark:bg-gray-800">
+              <div className="p-4">
                 <h2 className="text-xl font-bold mb-2 dark:text-white">
                   {lesson.title}
                 </h2>
-                <p className="text-gray-500 h-full dark:text-gray-400">
+                <p className="text-gray-500 h-full text-gray-400">
                   {lesson.description}
                 </p>
               </div>
