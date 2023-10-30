@@ -241,9 +241,9 @@ const VideoBlog: React.FC = () => {
 
         <p>
           Personally, if I had to start from $0, I would help them directly make
-          money as it's easier, and the learning curve isn't as steep compared
-          to learning a high income skill. It&apos;s pretty easy to find jobs
-          for these types of roles.
+          money as it&apos;s easier, and the learning curve isn&apos;t as steep
+          compared to learning a high income skill. It&apos;s pretty easy to
+          find jobs for these types of roles.
         </p>
         <p>
           Head over to Twitter, search up “Looking for appointment setters” and
