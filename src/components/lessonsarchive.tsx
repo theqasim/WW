@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 
 const lessonsData = [
-  // {
-  //   id: 1,
-  //   title: "I found the 5 laziest ways to make money online",
-  //   description:
-  //     "Have you ever wanted to make money online? But don't want to spend a ton of time building a business to do so? I will show you the easiest ways to make money online as a complete beginner. I currently use some of these methods too, so rest assured they work very well.",
-  //   imageUrl: "/resources/howtomakeviralaihistoryvideos.jpg",
-  //   link: "/lessons/5laziestwaystomakemoneyonline",
-  // },
+  {
+    id: 1,
+    title: "I found the 5 laziest ways to make money online",
+    description:
+      "Have you ever wanted to make money online? But don't want to spend a ton of time building a business to do so? I will show you the easiest ways to make money online as a complete beginner. I currently use some of these methods too, so rest assured they work very well.",
+    imageUrl: "/resources/howtomakeviralaihistoryvideos.jpg",
+    link: "/lessons/5laziestwaystomakemoneyonline",
+  },
   {
     id: 2,
     title: "How to Make AI Historical Content",
@@ -116,7 +116,7 @@ function LessonsArchive() {
                 <h2 className="text-xl font-bold mb-2 dark:text-white">
                   {lesson.title}
                 </h2>
-                <p className="text-gray-500 h-full text-gray-400">
+                <p className="text-white h-full text-gray-400">
                   {lesson.description}
                 </p>
               </div>
