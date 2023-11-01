@@ -8,7 +8,7 @@ const lessonsData = [
   //   title: "I found the 5 laziest ways to make money online",
   //   description:
   //     "Have you ever wanted to make money online? But don't want to spend a ton of time building a business to do so? I will show you the easiest ways to make money online as a complete beginner. I currently use some of these methods too, so rest assured they work very well.",
-  //   imageUrl: "/resources/howtomakeviralaihistoryvideos.jpg",
+  //   imageUrl: "/resources/5waystomakemoney.jpeg",
   //   link: "/lessons/5laziestwaystomakemoneyonline",
   // },
   {
