@@ -228,8 +228,8 @@ const VideoBlog: React.FC = () => {
               </li>
               <li>
                 Or you can post 1 minute clips from interactions that truly
-                capture the viewer's attention (crazy stream moments, podcast
-                moments)
+                capture the viewer&apos;s attention (crazy stream moments,
+                podcast moments)
               </li>
               <li>
                 If you&apos;re struggling for content, curate your TikTok feed
@@ -269,8 +269,8 @@ const VideoBlog: React.FC = () => {
           services that are fitting for your audience.
         </p>
         <p>
-          If you&apos;re clipping a creator's content, they may reach out to you
-          and offer to put you on payroll to do this, on top of the money
+          If you&apos;re clipping a creator&apos;s content, they may reach out
+          to you and offer to put you on payroll to do this, on top of the money
           you&apos;re making from the account, as the exposure is beneficial for
           them.
         </p>
