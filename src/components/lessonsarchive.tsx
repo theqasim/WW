@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 
 const lessonsData = [
-  // {
-  //   id: 1,
-  //   title: "Easiest Way To Make $10k/Month In 2023 (TikTok Creativity Program)",
-  //   description:
-  //     "Making $10k a month is a big goal for many, but what if it was mumch easier to attain than you think? TikTok invested $1 Billion into thier Creativity program, using that I will show you how to start making easy money by posting TikTok's and monetizing the views.",
-  //   imageUrl: "/resources/5waystomakemoney.jpeg",
-  //   link: "/lessons/easiestwaytomake10kamonth",
-  // },
+  {
+    id: 1,
+    title: "Easiest Way To Make $10k/Month In 2023 (TikTok Creativity Program)",
+    description:
+      "Making $10k a month is a big goal for many, but what if it was mumch easier to attain than you think? TikTok invested $1 Billion into thier Creativity program, using that I will show you how to start making easy money by posting TikTok's and monetizing the views.",
+    imageUrl: "/resources/easiest-way-to-make-10kamonth.png",
+    link: "/lessons/comingsoon",
+  },
   {
     id: 2,
     title: "I found the 5 laziest ways to make money online",
