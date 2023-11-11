@@ -7,5 +7,6 @@ export const config = {
     "/lessons/makemoneywithchatgpt",
     "/lessons/makeaihistoricalcontent",
     "/lessons/5laziestwaystomakemoneyonline",
+    "/lessons/easiestwaytomake10kamonth"
   ],
 };
