@@ -7,9 +7,9 @@ const lessonsData = [
     id: 1,
     title: "Easiest Way To Make $10k/Month In 2023 (TikTok Creativity Program)",
     description:
-      "Making $10k a month is a big goal for many, but what if it was mumch easier to attain than you think? TikTok invested $1 Billion into thier Creativity program, using that I will show you how to start making easy money by posting TikTok's and monetizing the views.",
+      "Making $10k a month is a big goal for many, but what if it was much easier to attain than you think? TikTok invested $1 Billion into their Creativity program, using that I will show you how to start making easy money by posting TikTok's and monetizing the views.",
     imageUrl: "/resources/easiest-way-to-make-10kamonth.png",
-    link: "/lessons/comingsoon",
+    link: "/lessons/easiestwaytomake10kamonth",
   },
   {
     id: 2,
@@ -62,7 +62,7 @@ function LessonsArchive() {
     setSearchInput(searchTerm);
 
     const filteredLessons = lessonsData.filter((lesson) =>
-      lesson.title.toLowerCase().includes(searchTerm),
+      lesson.title.toLowerCase().includes(searchTerm)
     );
 
     setFilteredLessons(filteredLessons);
