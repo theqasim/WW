@@ -20,7 +20,7 @@ export default function LessonsPreview() {
               width={300}
               height={200}
             />
-            <p className="text-white font-semibold mb-1">
+            <p className="text-black font-semibold mb-1">
               How to Make Money as a Teen with $0
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function LessonsPreview() {
               width={300}
               height={200}
             />
-            <p className="text-white font-semibold mb-1">
+            <p className="text-blaxk font-semibold mb-1">
               How to Start Dropshipping with $0
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function LessonsPreview() {
               width={300}
               height={200}
             />
-            <p className="text-white  font-semibold mt-3">
+            <p className="text-black  font-semibold mt-3">
               How to make $10K/month with ChatGPT
             </p>
           </div>
