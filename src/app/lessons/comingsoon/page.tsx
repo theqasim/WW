@@ -4,9 +4,7 @@ export default function Comingsoon() {
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-zinc-900">
       <div className="text-center space-y-4 w-full">
-        <h1 className="text-4xl font-bold text-white">
-          Lesson Coming Soon!
-        </h1>
+        <h1 className="text-4xl font-bold text-white">Lesson Coming Soon!</h1>
         <p className="text-gray-200 w-1/2 text-center mx-auto">
           This lesson will be released very soon, come back when the lesson is
           officially announced in the Web Wealth Discord 🤝
