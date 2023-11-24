@@ -35,7 +35,7 @@ const VideoBlog: React.FC = () => {
         </video>
         <h2 className="text-xl font-bold text-center">
           In this lesson I will be trying Dropshipping for 30 days as a complete
-          beginner to prove it's not dead.
+          beginner to prove it&apos;s not dead.
         </h2>
         <h2 className="text-xl font-bold text-center">
           I will be doing a 30 day Dropshipping challenge to prove to you what
@@ -99,7 +99,7 @@ const VideoBlog: React.FC = () => {
         </p>
         <p>
           BUT, the method I used was much easier than this, I simply used
-          Snaptik to download other people's content without the TikTok
+          Snaptik to download other people&apos;s content without the TikTok
           watermark and upload it to my own accounts.
         </p>
         <p>
@@ -225,7 +225,7 @@ const VideoBlog: React.FC = () => {
         <p>
           I did this as a complete beginner, so trust me when I say Dropshipping
           is not dead, it has just evolved from what it once was. It is still
-          very easy to do, if you're prepared to work hard. I highly reccommend
+          very easy to do, if you&apos;re prepared to work hard. I highly reccommend
           you try this out.
         </p>
         <div className="text-gray-700 space-y-4">
