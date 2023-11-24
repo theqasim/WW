@@ -9,5 +9,6 @@ export const config = {
     "/lessons/5laziestwaystomakemoneyonline",
     "/lessons/easiestwaytomake10kamonth",
     "/lessons/make$1000in24hours",
+    "/lessons/dropshippingisnotdead",
   ],
 };
