@@ -27,8 +27,9 @@ const VideoBlog: React.FC = () => {
         <h1 className="text-2xl font-bold mb-4 text-center text-gray-800">
           The Easiest Way to make $10k a month (TikTok Creativity Program){" "}
         </h1>
-        <YouTube videoId="Xv1Kub4iZt0" opts={opts} onReady={onReady} />
-
+        <div className="flex justify-center">
+          <YouTube videoId="Xv1Kub4iZt0" opts={opts} onReady={onReady} />
+        </div>
         <h2 className="text-xl font-bold text-center">
           There&apos;s always money making opportunities that you wish you were
           in earlier on. We had Bitcoin in 2012, NFT&apos;s in 2021, and various
