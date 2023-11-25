@@ -2,23 +2,22 @@
 
 import React from "react";
 import Link from "next/link";
-import Plyr from "plyr";
+import YouTube from "react-youtube";
 import { useEffect, useRef } from "react";
-import "plyr/dist/plyr.css";
 import Backtolessons from "@/components/backtolessons";
 
 const VideoBlog: React.FC = () => {
-  const videoRef = useRef(null);
+  const opts = {
+    height: "390",
+    width: "640",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
 
-  useEffect(() => {
-    if (videoRef.current) {
-      const player = new Plyr(videoRef.current);
-
-      return () => {
-        player.destroy();
-      };
-    }
-  }, []);
+  const onReady = (event: { target: { pauseVideo: () => void } }) => {
+    event.target.pauseVideo();
+  };
 
   return (
     <div className="min-h-screen bg-gray-200 flex items-center justify-center">
@@ -27,13 +26,9 @@ const VideoBlog: React.FC = () => {
           How to Make AI Historical Content{" "}
         </h1>
 
-        <video ref={videoRef} controls className="w-full mb-6">
-          <source
-            src="https://www.dropbox.com/scl/fi/rju41l1rmcd68aqundh2s/How-I-would-start-Dropshipping-with-0.mp4?rlkey=7ssy5ez50kh6mjnlpsx2rbhfq&dl=1"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
+        <div className="flex justify-center">
+          <YouTube videoId="1aXinsLXgeA" opts={opts} onReady={onReady} />
+        </div>
 
         <h2 className="text-2xl font-bold text-center mb-4">
           Here&apos;s what you will learn:

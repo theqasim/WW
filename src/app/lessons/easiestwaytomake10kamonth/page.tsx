@@ -2,10 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import Plyr from "plyr";
 import YouTube from "react-youtube";
 import { useEffect, useRef } from "react";
-import "plyr/dist/plyr.css";
 import Backtolessons from "@/components/backtolessons";
 
 const VideoBlog: React.FC = () => {

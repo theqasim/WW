@@ -2,23 +2,22 @@
 
 import React from "react";
 import Link from "next/link";
-import Plyr from "plyr";
+import YouTube from "react-youtube";
 import { useEffect, useRef } from "react";
-import "plyr/dist/plyr.css";
 import Backtolessons from "@/components/backtolessons";
 
 const VideoBlog: React.FC = () => {
-  const videoRef = useRef(null);
+  const opts = {
+    height: "390",
+    width: "640",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
 
-  useEffect(() => {
-    if (videoRef.current) {
-      const player = new Plyr(videoRef.current);
-
-      return () => {
-        player.destroy();
-      };
-    }
-  }, []);
+  const onReady = (event: { target: { pauseVideo: () => void } }) => {
+    event.target.pauseVideo();
+  };
 
   return (
     <div className="min-h-screen bg-gray-200 flex items-center justify-center">
@@ -26,13 +25,9 @@ const VideoBlog: React.FC = () => {
         <h1 className="text-2xl font-bold mb-4 text-center text-gray-800">
           I Tried Dropshipping For 30 Days To Prove It&apos;s Not Dead
         </h1>
-        <video ref={videoRef} controls className="w-full mb-6">
-          <source
-            src="https://www.dropbox.com/scl/fi/rju41l1rmcd68aqundh2s/How-I-would-start-Dropshipping-with-0.mp4?rlkey=7ssy5ez50kh6mjnlpsx2rbhfq&dl=1"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
+        <div className="flex justify-center">
+          <YouTube videoId="Xv1Kub4iZt0" opts={opts} onReady={onReady} />
+        </div>
         <h2 className="text-xl font-bold text-center">
           In this lesson I will be trying Dropshipping for 30 days as a complete
           beginner to prove it&apos;s not dead.
@@ -225,8 +220,8 @@ const VideoBlog: React.FC = () => {
         <p>
           I did this as a complete beginner, so trust me when I say Dropshipping
           is not dead, it has just evolved from what it once was. It is still
-          very easy to do, if you&apos;re prepared to work hard. I highly reccommend
-          you try this out.
+          very easy to do, if you&apos;re prepared to work hard. I highly
+          reccommend you try this out.
         </p>
         <div className="text-gray-700 space-y-4">
           <p>With that being said, I wish you the best of luck 🤝</p>
