@@ -165,8 +165,8 @@ const VideoBlog: React.FC = () => {
         </ul>
         <p>
           The reason for this is because there&apos;s a market for these
-          problems, and if we can solve people's problems within these niches,
-          we can make money.
+          problems, and if we can solve people&apos;s problems within these
+          niches, we can make money.
         </p>
         <p>
           Trust me this framework is very rarely talked about and it makes a lot
@@ -234,7 +234,7 @@ const VideoBlog: React.FC = () => {
           services directly help the viewer solve their problem. You can make
           crazy money doing this, and it is very easy to do
         </p>
-        <p> 
+        <p>
           <b>2:</b> The next source of income with the Seamless Cooperative
           Framework is the money you directly make with video, as you grow your
           audience, you&apos;re going to make money from the video, because
@@ -253,7 +253,7 @@ const VideoBlog: React.FC = () => {
         <p>
           Here&apos;s an example, let&apos;s say we&apos;re teaching people how
           to grow on YouTube, a complimentary passive income stream can be an
-          exclusive guide with information you don't freely give out, or a
+          exclusive guide with information you don&apos;t freely give out, or a
           mentoring program that teaches people how to grow on YouTube. Once you
           set this up, along with the other income sources, you&apos;re at the
           final stage of your monetization setup.
@@ -266,7 +266,7 @@ const VideoBlog: React.FC = () => {
         <p>
           Making money online is a lot simpler than most people think it is. If
           you truly apply yourself to this framework, you will make money online
-          and you'll thank yourself for taking the leap.
+          and you&apos;ll thank yourself for taking the leap.
         </p>
         <div className="text-gray-700 space-y-4">
           <p>With that being said, I wish you the best of luck 🤝</p>
