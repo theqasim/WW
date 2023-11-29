@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           I Tried Dropshipping For 30 Days To Prove It&apos;s Not Dead
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="Xv1Kub4iZt0" opts={opts} onReady={onReady} />
+          <YouTube videoId="1WpySO_8t_Q" opts={opts} onReady={onReady} />
         </div>
         <h2 className="text-xl font-bold text-center">
           In this lesson I will be trying Dropshipping for 30 days as a complete
