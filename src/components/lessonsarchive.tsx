@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 
 const lessonsData = [
-  // {
-  //   id: 1,
-  //   title: "The Absolute Best Way to Make Money Online",
-  //   description:
-  //     "Making money online is often overcomplicated by many, people buy get rich quick schemes and crypto courses in the hopes of making some money, the reality is it's much easier than you think. I will show you the framework the top people in the industry use to make money online.",
-  //   imageUrl: "/resources/tryingdropshippingfor30days1.jpg",
-  //   link: "/lessons/dropshippingisnotdead",
-  // },
+  {
+    id: 1,
+    title: "The Absolute Best Way to Make Money Online",
+    description:
+      "Making money online is often overcomplicated by many, people buy get rich quick schemes and crypto courses in the hopes of making some money, the reality is it's much easier than you think. I will show you the framework the top people in the industry use to make money online.",
+    imageUrl: "/resources/bestwaytomakemoney.jpg",
+    link: "/lessons/dropshippingisnotdead",
+  },
   {
     id: 2,
     title: "I Tried Dropshipping For 30 Days To Prove It's Not Dead",
