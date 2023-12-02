@@ -23,7 +23,7 @@ const VideoBlog: React.FC = () => {
     <div className="min-h-screen bg-gray-200 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-xl w-4/5 md:w-2/3 lg:w-1/2 space-y-6">
         <h1 className="text-2xl font-bold mb-4 text-center text-gray-800">
-          The ABSOLUTE Best Way To Make Money Online
+          Laziest Way to Make Money Online For Beginners ($100/day+)
         </h1>
         <div className="flex justify-center">
           <YouTube videoId="Xv1Kub4iZt0" opts={opts} onReady={onReady} />
