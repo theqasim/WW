@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           Laziest Way to Make Money Online For Beginners ($100/day+)
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="Xv1Kub4iZt0" opts={opts} onReady={onReady} />
+          <YouTube videoId="N5_x1olKD8s" opts={opts} onReady={onReady} />
         </div>
         <h2 className="text-xl font-bold text-center">
           In this lesson I will show you the absoulte best way to make money
