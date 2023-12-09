@@ -10,6 +10,7 @@ export const config = {
     "/lessons/easiestwaytomake10kamonth",
     "/lessons/make$1000in24hours",
     "/lessons/dropshippingisnotdead",
-    "/lessons/laziestwaytomakemoneyonline"
+    "/lessons/laziestwaytomakemoneyonline",
+    "/lessons/lawtomake$10kamonth"
   ],
 };
