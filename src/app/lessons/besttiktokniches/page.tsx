@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           I Found The Highest RPM TikTok Creativity Program Niches{" "}
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="N5_x1olKD8s" opts={opts} onReady={onReady} />
+          <YouTube videoId="NZ8vwZmvkR4" opts={opts} onReady={onReady} />
         </div>
         <h2 className="text-xl font-bold text-center">
           TikTok&apos;s creativity program is blowing up at the moment and
