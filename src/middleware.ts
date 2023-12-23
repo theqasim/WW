@@ -12,6 +12,7 @@ export const config = {
     "/lessons/dropshippingisnotdead",
     "/lessons/laziestwaytomakemoneyonline",
     "/lessons/lawtomake$10kamonth",
-    "/lessons/besttiktokniches"
+    "/lessons/besttiktokniches",
+    "/lessons/bestbusinessfor2024",
   ],
 };

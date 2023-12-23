@@ -114,8 +114,8 @@ const VideoBlog: React.FC = () => {
           <b>SIMPLY WORKS</b> with anything you want to achieve.
         </p>
         <p>
-          You feel like success isn&apos;t for you, or you&apos;re not skilled enough
-          for this, but <b>TRUST ME</b> you&apos;re capable of this.
+          You feel like success isn&apos;t for you, or you&apos;re not skilled
+          enough for this, but <b>TRUST ME</b> you&apos;re capable of this.
         </p>
         <p>
           You&apos;re starting to see how anyone can achieve this, even{" "}
