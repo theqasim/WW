@@ -75,7 +75,7 @@ const VideoBlog: React.FC = () => {
           Take my TikTok for example, all I am doing is low effort videos that
           take me 2-3 minutes a day to record at my desk and I am bringing in
           THOUSANDS of views daily. It&apos;s so easy to do on TikTok once you
-          apply what I'll show you in this video.
+          apply what I&apos;ll show you in this video.
         </p>
         <p>
           In case you&apos;re wondering whether TikTok is the only place this
@@ -123,8 +123,8 @@ const VideoBlog: React.FC = () => {
         </ul>
         <p>
           The reason for this is because there&apos;s a market for these
-          problems, and if we can solve people's problems within these niches,
-          we can make money through the content so easily.
+          problems, and if we can solve people&apos;s problems within these
+          niches, we can make money through the content so easily.
         </p>
         <h2 className="text-xl font-bold text-center">
           Step 2: Validate your chosen topic.
