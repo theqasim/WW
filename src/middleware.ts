@@ -16,5 +16,6 @@ export const config = {
     "/lessons/bestbusinessfor2024",
     "/videos/bestwaytomakemoneyonline2024",
     "/lessons/teenwith$0in2024",
+    "/videos/teenwith$0in2024",
   ],
 };
