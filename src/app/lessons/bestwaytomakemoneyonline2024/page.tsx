@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           Best Way To Make Money Online In 2024
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="2yJzn2qaDS0" opts={opts} onReady={onReady} />
+          <YouTube videoId="3G_nsdvzaik" opts={opts} onReady={onReady} />
         </div>
         <h1 className="text-xl font-bold mb-4 text-center text-gray-800">
           Here is my backstory:

@@ -6,6 +6,14 @@ import Link from "next/link";
 const videosData = [
   {
     id: 1,
+    title: "If I Was A Teen With $0 in 2024, I'd Do THIS..",
+    description:
+      "Are you in your teen years with no money, but you want to make money online? Trust me, I've been there, looking at the lavish lifestyles people live online and wishing that was you. Good news, it can be.",
+    imageUrl: "/resources/howtomakemoneyasateenwith$0.jpg",
+    link: "/videos/bestwaytomakemoneyonline2024",
+  },
+  {
+    id: 2,
     title: "Best Way To Make Money Online In 2024",
     description:
       "We are approaching 2024, it's time to actually achieve your goal of making money online. I've done this for YEARS, and I have created the easiest model for you to follow to make money online easily. ",
