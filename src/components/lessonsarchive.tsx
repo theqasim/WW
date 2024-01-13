@@ -6,6 +6,14 @@ import Link from "next/link";
 const lessonsData = [
   {
     id: 1,
+    title: "The Best TikTok Niche in 2024",
+    description:
+      "The average person is making THOUSANDS of $ through the TikTok Creativity Program. I will show you the best niche and how to create the content for the best performance.",
+    imageUrl: "/resources/besttiktokniche2024.jpg",
+    link: "/lessons/besttiktokniche2024",
+  },
+  {
+    id: 1,
     title: "If I Was A Teen With $0 in 2024, I'd Do THIS..",
     description:
       "Are you in your teen years with no money, but you want to make money online? Trust me, I've been there, looking at the lavish lifestyles people live online and wishing that was you. Good news, it can be.",

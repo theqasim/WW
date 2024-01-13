@@ -6,6 +6,14 @@ import Link from "next/link";
 const videosData = [
   {
     id: 1,
+    title: "The Best TikTok Niche in 2024",
+    description:
+      "The average person is making THOUSANDS of $ through the TikTok Creativity Program. I will show you the best niche and how to create the content for the best performance.",
+    imageUrl: "/resources/besttiktokniche2024.jpg",
+    link: "/videos/besttiktokniche2024",
+  },
+  {
+    id: 2,
     title: "If I Was A Teen With $0 in 2024, I'd Do THIS..",
     description:
       "Are you in your teen years with no money, but you want to make money online? Trust me, I've been there, looking at the lavish lifestyles people live online and wishing that was you. Good news, it can be.",
@@ -13,7 +21,7 @@ const videosData = [
     link: "/videos/bestwaytomakemoneyonline2024",
   },
   {
-    id: 2,
+    id: 3,
     title: "Best Way To Make Money Online In 2024",
     description:
       "We are approaching 2024, it's time to actually achieve your goal of making money online. I've done this for YEARS, and I have created the easiest model for you to follow to make money online easily. ",
