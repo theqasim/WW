@@ -6,6 +6,14 @@ import Link from "next/link";
 const lessonsData = [
   {
     id: 1,
+    title: "The Laziest Way To Make Money Online In 2024",
+    description:
+      "I am not exaggerating when I say this, this is the easiest way to make money that I've found online. Never covered this before and regular people are making THOUSANDS doing this.",
+    imageUrl: "/resources/100ahour.jpg",
+    link: "/lessons/laziestwaytomakemoneyonline2024",
+  },
+  {
+    id: 1,
     title: "The Best TikTok Niche in 2024",
     description:
       "The average person is making THOUSANDS of $ through the TikTok Creativity Program. I will show you the best niche and how to create the content for the best performance.",

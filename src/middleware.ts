@@ -19,5 +19,7 @@ export const config = {
     "/videos/teenwith$0in2024",
     "/lessons/besttiktokniche2024",
     "/videos/besttiktokniche2024",
+    "/lessons/laziestwaytomakemoneyonline2024",
+    "/videos/laziestwaytomakemoneyonline2024",
   ],
 };
