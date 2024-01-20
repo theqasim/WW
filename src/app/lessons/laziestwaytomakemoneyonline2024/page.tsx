@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           The Laziest Way To Make Money Online in 2024{" "}
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="N5_x1olKD8s" opts={opts} onReady={onReady} />
+          <YouTube videoId="Kx__gCeOepI" opts={opts} onReady={onReady} />
         </div>
         <h2 className="text-xl font-bold text-center">
           In this lesson I will show the LAZIEST way to make money online in
