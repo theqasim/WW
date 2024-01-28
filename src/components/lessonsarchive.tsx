@@ -6,6 +6,14 @@ import Link from "next/link";
 const lessonsData = [
   {
     id: 1,
+    title: "Smartest Route To $10,000/Month in 2024",
+    description:
+      "There is a variety of ways to make money online in 2024, with $10,000/month being every beginners target for making money online, I am going to show you the smartest route to achieve it.",
+    imageUrl: "/resources/10kamonthin2024.jpg",
+    link: "/lessons/10kamonthin2024",
+  },
+  {
+    id: 1,
     title: "The Laziest Way To Make Money Online In 2024",
     description:
       "I am not exaggerating when I say this, this is the easiest way to make money that I've found online. Never covered this before and regular people are making THOUSANDS doing this.",

@@ -6,6 +6,14 @@ import Link from "next/link";
 const videosData = [
   {
     id: 1,
+    title: "Smartest Route To $10,000/Month in 2024",
+    description:
+      "There is a variety of ways to make money online in 2024, with $10,000/month being every beginners target for making money online, I am going to show you the smartest route to achieve it.",
+    imageUrl: "/resources/10kamonthin2024.jpg",
+    link: "/videos/10kamonthin2024",
+  },
+  {
+    id: 2,
     title: "The Laziest Way To Make Money Online In 2024",
     description:
       "I am not exaggerating when I say this, this is the easiest way to make money that I've found online. Never covered this before and regular people are making THOUSANDS doing this.",
@@ -13,7 +21,7 @@ const videosData = [
     link: "/videos/laziestwaytomakemoneyonline2024",
   },
   {
-    id: 2,
+    id: 3,
     title: "The Best TikTok Niche in 2024",
     description:
       "The average person is making THOUSANDS of $ through the TikTok Creativity Program. I will show you the best niche and how to create the content for the best performance.",
@@ -21,7 +29,7 @@ const videosData = [
     link: "/videos/besttiktokniche2024",
   },
   {
-    id: 3,
+    id: 4,
     title: "If I Was A Teen With $0 in 2024, I'd Do THIS..",
     description:
       "Are you in your teen years with no money, but you want to make money online? Trust me, I've been there, looking at the lavish lifestyles people live online and wishing that was you. Good news, it can be.",
@@ -29,7 +37,7 @@ const videosData = [
     link: "/videos/bestwaytomakemoneyonline2024",
   },
   {
-    id: 4,
+    id: 5,
     title: "Best Way To Make Money Online In 2024",
     description:
       "We are approaching 2024, it's time to actually achieve your goal of making money online. I've done this for YEARS, and I have created the easiest model for you to follow to make money online easily. ",

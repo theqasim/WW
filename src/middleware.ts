@@ -21,5 +21,7 @@ export const config = {
     "/videos/besttiktokniche2024",
     "/lessons/laziestwaytomakemoneyonline2024",
     "/videos/laziestwaytomakemoneyonline2024",
+    "/lessons/10kamonthin2024",
+    "/videos/10kamonthin2024",
   ],
 };
