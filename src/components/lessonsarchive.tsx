@@ -6,6 +6,15 @@ import Link from "next/link";
 const lessonsData = [
   {
     id: 1,
+    title:
+      "Viral TikTok Niches to make $10,834 in 30 Days (TikTok Creativity Program)",
+    description:
+      "Making money on Tiktok has been a very popular subject recently, I've covered it a few times and there's been major interest. Here's the newest and most viral Tiktok niches to make you money.",
+    imageUrl: "/resources/viraltiktokniches.jpg",
+    link: "/lessons/viraltiktokniches",
+  },
+  {
+    id: 1,
     title: "Smartest Route To $10,000/Month in 2024",
     description:
       "There is a variety of ways to make money online in 2024, with $10,000/month being every beginners target for making money online, I am going to show you the smartest route to achieve it.",

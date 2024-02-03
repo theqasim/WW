@@ -88,8 +88,8 @@ const VideoBlog: React.FC = () => {
           </li>
           <li>
             <b>
-              Set a regimented routine (people often don&apos;t work due to lack of
-              time and structure)
+              Set a regimented routine (people often don&apos;t work due to lack
+              of time and structure)
             </b>
           </li>
           <li>
