@@ -23,5 +23,6 @@ export const config = {
     "/videos/laziestwaytomakemoneyonline2024",
     "/lessons/10kamonthin2024",
     "/videos/10kamonthin2024",
+    "/lessons/dropshipwithtiktokshop"
   ],
 };
