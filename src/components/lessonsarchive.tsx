@@ -8,7 +8,7 @@ const lessonsData = [
     id: 1,
     title: "How To Dropship With Tiktok (FULL GUIDE)",
     description:
-      "Dropshipping is one of the most popular online business models of all time, but there is a new popular form of it, bigger than the Facebook ads ternd in 2018, and TikTok Dropshipping in 2023.",
+      "Dropshipping is one of the most popular online business models of all time, but there is a new popular form of it, bigger than the Facebook ads trend in 2018, and TikTok Dropshipping in 2023.",
     imageUrl: "/resources/tiktokdropshipping.jpg",
     link: "/lessons/dropshipwithtiktokshop",
   },
