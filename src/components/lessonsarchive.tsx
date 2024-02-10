@@ -6,6 +6,14 @@ import Link from "next/link";
 const lessonsData = [
   {
     id: 1,
+    title: "How To Dropship With Tiktok (FULL GUIDE)",
+    description:
+      "Dropshipping is one of the most popular online business models of all time, but there is a new popular form of it, bigger than the Facebook ads ternd in 2018, and TikTok Dropshipping in 2023.",
+    imageUrl: "/resources/tiktokdropshipping.jpg",
+    link: "/lessons/dropshipwithtiktokshop",
+  },
+  {
+    id: 1,
     title:
       "Viral TikTok Niches to make $10,834 in 30 Days (TikTok Creativity Program)",
     description:
@@ -170,14 +178,14 @@ function LessonsArchive() {
     setSearchInput(searchTerm);
 
     const newFilteredLessons = lessons.filter((lesson) =>
-      lesson.title.toLowerCase().includes(searchTerm),
+      lesson.title.toLowerCase().includes(searchTerm)
     );
 
     setFilteredLessons(newFilteredLessons);
   };
 
   const sortedFilteredLessons = [...filteredLessons].sort(
-    (a, b) => b.id - a.id,
+    (a, b) => b.id - a.id
   );
 
   return (
