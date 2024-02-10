@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           How To Dropship With TikTok Shop (FULL GUIDE)
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="xx3WxSMxnwE" opts={opts} onReady={onReady} />
+          <YouTube videoId="j-ASAXbW1J4" opts={opts} onReady={onReady} />
         </div>
         <h2 className="text-xl font-bold text-center">
           In this lesson I will be discussing the biggest opportunity in E

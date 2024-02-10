@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           Viral TikTok Niches to make $10,834 in 30 Days{" "}
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="xx3WxSMxnwE" opts={opts} onReady={onReady} />
+          <YouTube videoId="j9qJNzjMNgk" opts={opts} onReady={onReady} />
         </div>
         <h2 className="text-xl font-bold text-center">
           Making money on TikTok has never been easier.
@@ -151,9 +151,9 @@ const VideoBlog: React.FC = () => {
           with this.
         </p>
         <p>
-          You can put a spin on it and target a different niche, whether that&apos;s
-          famous monuments, or famous battlegrounds, the possibilities are
-          endless.
+          You can put a spin on it and target a different niche, whether
+          that&apos;s famous monuments, or famous battlegrounds, the
+          possibilities are endless.
         </p>
         <p>
           The quality of google earth studio is INSANE which makes the content
@@ -184,8 +184,8 @@ const VideoBlog: React.FC = () => {
           trends with this type of content and is bringing in THOUSANDS.
         </p>
         <p>
-          It&apos;s super easy to make as you&apos;re creating either a video or a
-          carousel where the image progressively gets more detailed towards a
+          It&apos;s super easy to make as you&apos;re creating either a video or
+          a carousel where the image progressively gets more detailed towards a
           certain theme, whether it be uglier, cuter, angrier etc.
         </p>
         <p>
