@@ -9,8 +9,8 @@ export default function Component() {
           Fish News TikTok Resources
         </h1>
         <p className="mt-4 max-w-xl mx-auto text-gray-500 md:text-xl dark:text-gray-400">
-          All the resources you will need to create Fish News TikTok's to go
-          viral and make money.
+          All the resources you will need to create Fish News TikTok&apos;s to
+          go viral and make money.
         </p>
       </div>
       <div className="divide-y">
