@@ -57,7 +57,7 @@ export default function Component() {
                 Fish News Desk
               </h2>
               <p className="text-gray-500 dark:text-gray-400 text-center">
-                The desk for the fish to "sit at" in the TikTok video.
+                The desk for the fish to &quot;sit at&quot; in the TikTok video.
               </p>
             </div>
             <Link
