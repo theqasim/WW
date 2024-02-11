@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
+/* body {
   color: black;
   background: #383838;
   font: system-ui;
-}
+} */
 
 @font-face {
   font-family: "mons";

@@ -178,14 +178,14 @@ function LessonsArchive() {
     setSearchInput(searchTerm);
 
     const newFilteredLessons = lessons.filter((lesson) =>
-      lesson.title.toLowerCase().includes(searchTerm)
+      lesson.title.toLowerCase().includes(searchTerm),
     );
 
     setFilteredLessons(newFilteredLessons);
   };
 
   const sortedFilteredLessons = [...filteredLessons].sort(
-    (a, b) => b.id - a.id
+    (a, b) => b.id - a.id,
   );
 
   return (
