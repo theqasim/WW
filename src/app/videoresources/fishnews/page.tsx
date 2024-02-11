@@ -14,7 +14,7 @@ export default function Component() {
         </p>
       </div>
       <div className="divide-y">
-        <div className="container grid items-center gap-10 px-4 py-10 md:gap-16 md:px-6 lg:gap-20 lg:py-12">
+        <div className="container grid items-center mx-auto gap-10 px-4 py-10 md:gap-16 md:px-6 lg:gap-20 lg:py-12">
           <div className="grid items-start gap-4 md:grid-cols-2 md:items-center md:gap-8">
             <div className="space-y-4 md:space-y-3">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl text-center">
@@ -26,7 +26,7 @@ export default function Component() {
               </p>
             </div>
             <Link
-              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
+              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
               href="https://drive.google.com/file/d/13PmMH2tgqT6TYP1HLMhAbxXDA5tzCsm9/view?usp=share_link"
             >
               Download
@@ -43,25 +43,25 @@ export default function Component() {
               </p>
             </div>
             <Link
-              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
+              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
               href="https://drive.google.com/file/d/1zfbiUfCecmYbfXGDJrQ4OO_m1agDHova/view?usp=share_link"
             >
               Download
             </Link>
           </div>
         </div>
-        <div className="container grid items-center gap-10 px-4 py-10 md:gap-16 md:px-6 lg:gap-20 lg:py-12">
+        <div className="container grid items-center gap-10 mx-auto px-4 py-10 md:gap-16 md:px-6 lg:gap-20 lg:py-12">
           <div className="grid items-start gap-4 md:grid-cols-2 md:items-center md:gap-8">
             <div className="space-y-4 md:space-y-3">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl text-center">
                 Fish News Desk
               </h2>
               <p className="text-gray-500 dark:text-gray-400 text-center">
-                The desk for the fish to &quot;sit at&quot; in the TikTok video.
+                The desk for the fish to "sit at" in the TikTok video.
               </p>
             </div>
             <Link
-              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
+              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
               href="https://drive.google.com/file/d/1xpHMQ-aUhi4TICUJL27RyH8VVwEmSycJ/view?usp=share_link"
             >
               Download
@@ -78,7 +78,7 @@ export default function Component() {
               </p>
             </div>
             <Link
-              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
+              className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 text-gray-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 text-gray-50 dark:focus-visible:ring-gray-300"
               href="https://drive.google.com/file/d/1MHXn1TQW9_A3uTjnZRTlF9OolBN9yPrm/view?usp=share_link"
             >
               Download
