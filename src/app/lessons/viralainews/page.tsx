@@ -52,7 +52,7 @@ const VideoBlog: React.FC = () => {
         <p>
           And now you&pos;re probably thinking, the views are great, but the
           content seems hard to make, that&apos;s where you&apos;re mistaken,
-          this content is super easy to make and I'll show you how to make these
+          this content is super easy to make and I&apos;ll show you how to make these
           tiktoks in this video.
         </p>
         <p>
@@ -61,7 +61,7 @@ const VideoBlog: React.FC = () => {
           basis and bring in millions of views.
         </p>
         <p>
-          And if you wait till the end of the video, I'll show you how the
+          And if you wait till the end of the video, I&apos;ll show you how the
           method these pages use to get their content to go viral consistently.
         </p>
         <p>
@@ -81,7 +81,7 @@ const VideoBlog: React.FC = () => {
           your own voice.
         </p>
         <p>
-          Finally, this page's brand is about the news character you use, so in
+          Finally, this page&apos;s brand is about the news character you use, so in
           thai case we&apos;re using the fish, but you can do any type of animal
           and create a ton of pages with those animals, so you can bring in a
           ton of views super easily.
