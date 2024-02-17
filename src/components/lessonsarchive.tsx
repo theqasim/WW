@@ -6,7 +6,7 @@ import Link from "next/link";
 const lessonsData = [
   {
     id: 1,
-    title: "How To Edit Viral AI News TikToks",
+    title: "How To Make Viral AI News TikToks",
     description:
       "The TikTok creativity program is a great way to make money online, but the content itself is what will dictate how much you make. This niche is not only super unique, but the content is easy to make and you can make thousands with it.",
     imageUrl: "/resources/tiktokfishnews.jpg",
@@ -186,14 +186,14 @@ function LessonsArchive() {
     setSearchInput(searchTerm);
 
     const newFilteredLessons = lessons.filter((lesson) =>
-      lesson.title.toLowerCase().includes(searchTerm),
+      lesson.title.toLowerCase().includes(searchTerm)
     );
 
     setFilteredLessons(newFilteredLessons);
   };
 
   const sortedFilteredLessons = [...filteredLessons].sort(
-    (a, b) => b.id - a.id,
+    (a, b) => b.id - a.id
   );
 
   return (

@@ -26,7 +26,7 @@ const VideoBlog: React.FC = () => {
           How To Make VIRAL AI News Tiktok Videos
         </h1>
         <div className="flex justify-center">
-          <YouTube videoId="Xv1Kub4iZt0" opts={opts} onReady={onReady} />
+          <YouTube videoId="GnDMeKiSgIQ" opts={opts} onReady={onReady} />
         </div>
         <h2 className="text-xl font-bold text-center">
           I have found the best niche on TikTok currently.
@@ -52,8 +52,8 @@ const VideoBlog: React.FC = () => {
         <p>
           And now you&pos;re probably thinking, the views are great, but the
           content seems hard to make, that&apos;s where you&apos;re mistaken,
-          this content is super easy to make and I&apos;ll show you how to make these
-          tiktoks in this video.
+          this content is super easy to make and I&apos;ll show you how to make
+          these tiktoks in this video.
         </p>
         <p>
           I&apos;ll show how to structure the content, how to animate the fish,
@@ -81,10 +81,10 @@ const VideoBlog: React.FC = () => {
           your own voice.
         </p>
         <p>
-          Finally, this page&apos;s brand is about the news character you use, so in
-          thai case we&apos;re using the fish, but you can do any type of animal
-          and create a ton of pages with those animals, so you can bring in a
-          ton of views super easily.
+          Finally, this page&apos;s brand is about the news character you use,
+          so in thai case we&apos;re using the fish, but you can do any type of
+          animal and create a ton of pages with those animals, so you can bring
+          in a ton of views super easily.
         </p>
         <p>Now let&apos;s get into exactly how you can create these tiktoks.</p>
         <p>
