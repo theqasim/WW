@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Cta from "@/components/cta";
 
 export default function Component() {
   return (
@@ -13,6 +14,33 @@ export default function Component() {
           go viral and make money.
         </p>
       </div>
+      <section className="relative">
+        <div className="flex items-center justify-center">
+          <div className="w-3/4">
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden dark:bg-gray-950">
+              <div className="p-4 md:p-6 grid gap-4">
+                <div className="flex flex-col items-center gap-2">
+                  <img
+                    alt="Advertisement"
+                    className="aspect-video overflow-hidden rounded-lg border-4 object-cover object-center"
+                    height="112"
+                    src="/resources/logo.png"
+                    width="200"
+                  />
+                  <div className="text-center">
+                    <p className="text-sm mt-4 w-2/3 mx-auto font-bold tracking-tighter text-white">
+                      Get access to the EXCLUSIVE lesson for this YouTube video
+                      showing you the strategies the top pages use in this niche
+                      to go viral consistently.
+                    </p>
+                  </div>
+                </div>
+                <Cta textColor="text-white" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="divide-y">
         <div className="container grid items-center mx-auto gap-10 px-4 py-10 md:gap-16 md:px-6 lg:gap-20 lg:py-12">
           <div className="grid items-start gap-4 md:grid-cols-2 md:items-center md:gap-8">

@@ -6,6 +6,14 @@ import Link from "next/link";
 const lessonsData = [
   {
     id: 1,
+    title: "How To Edit Viral AI News TikToks",
+    description:
+      "The TikTok creativity program is a great way to make money online, but the content itself is what will dictate how much you make. This niche is not only super unique, but the content is easy to make and you can make thousands with it.",
+    imageUrl: "/resources/tiktokfishnews.jpg",
+    link: "/lessons/viralainews",
+  },
+  {
+    id: 1,
     title: "How To Dropship With Tiktok (FULL GUIDE)",
     description:
       "Dropshipping is one of the most popular online business models of all time, but there is a new popular form of it, bigger than the Facebook ads trend in 2018, and TikTok Dropshipping in 2023.",

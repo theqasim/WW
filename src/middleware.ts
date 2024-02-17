@@ -24,5 +24,6 @@ export const config = {
     "/lessons/10kamonthin2024",
     "/videos/10kamonthin2024",
     "/lessons/dropshipwithtiktokshop",
+    "/lessons/viralainews",
   ],
 };
